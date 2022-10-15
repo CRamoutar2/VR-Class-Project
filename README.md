@@ -5,11 +5,11 @@ _Chethram Ramoutar, Mark Blinder, Omar Hegazy, and Melanie Vasquez_
 ## About:
 Summary here
 
-## [Full IEEE VR Report](LatexReport-VR/Report.pdf)
-
 >### Engine: [Unity Version 2021.3.9f1](https://unity3d.com/get-unity/download/archive)
 >### Features:
 >### Goals:
+
+## [Full IEEE VR Report](LatexReport-VR/Report.pdf)
 
 ### **Headset Used for Testing:** [Oculus Quest 1](https://en.wikipedia.org/wiki/Oculus_Quest) & [Oculus Quest 2](https://www.meta.com/quest/products/quest-2/?utm_source=www.google.com&utm_medium=oculusredirect)
 
