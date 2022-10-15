@@ -5,6 +5,8 @@ _Chethram Ramoutar, Mark Blinder, Omar Hegazy, and Melanie Vasquez_
 ## About:
 Summary here
 
+## [Full IEEE VR Report](LatexReport-VR/Report.pdf)
+
 >### Engine: [Unity Version 2021.3.9f1](https://unity3d.com/get-unity/download/archive)
 >### Features:
 >### Goals:
