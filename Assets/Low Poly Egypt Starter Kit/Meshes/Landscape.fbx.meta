@@ -1,0 +1,419 @@
+fileFormatVersion: 2
+guid: aade1034c8b3f14418d0a5b20b41b2bb
+timeCreated: 1479227713
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Barrel
+    100004: Block
+    100006: Block 02
+    100008: Block 03
+    100010: Cloud
+    100012: Cloud 02
+    100014: Cloud 03
+    100016: Crate
+    100018: Flat_stone
+    100020: Flat_stone 02
+    100022: Flat_stone 03
+    100024: Flat_stone 04
+    100026: Flat_stone 05
+    100028: Grass
+    100030: Hause_stand
+    100032: House
+    100034: House 02
+    100036: House 03
+    100038: House 04
+    100040: House 05
+    100042: House Con
+    100044: Ladder
+    100046: Landscape
+    100048: Mountain
+    100050: Palm
+    100052: Palm 02
+    100054: Palm 03
+    100056: Pillars
+    100058: Pillars 02
+    100060: Pillars 03
+    100062: Pillars 04
+    100064: Pillars 05
+    100066: Pillars_block
+    100068: Pillars_block 02
+    100070: Pyramid
+    100072: Pyramid 02
+    100074: Pyramid 03
+    100076: Roof
+    100078: Ruins
+    100080: Ruins 02
+    100082: Ruins 03
+    100084: Ruins 04
+    100086: Sfinks
+    100088: Stairs
+    100090: Stand
+    100092: Stone
+    100094: Stone 02
+    100096: Stone_pavement
+    100098: Stone_pavement 02
+    100100: Stone_pavement 03
+    100102: Stone_pavement 04
+    100104: Stone_pavement 05
+    100106: Stone_pavement 06
+    100108: Stone_pavement 07
+    100110: Stone_pavement 08
+    100112: Stone_pavement 09
+    100114: Tower
+    100116: Tower 02
+    100118: Tower 03
+    100120: Wall
+    100122: Wall 02
+    100124: Wall 03
+    100126: Wall 04
+    100128: Wall 05
+    100130: Wall 06
+    100132: Wall_pillar
+    100134: Wall_pillar 02
+    100136: Wall_pillar 03
+    400000: //RootNode
+    400002: Barrel
+    400004: Block
+    400006: Block 02
+    400008: Block 03
+    400010: Cloud
+    400012: Cloud 02
+    400014: Cloud 03
+    400016: Crate
+    400018: Flat_stone
+    400020: Flat_stone 02
+    400022: Flat_stone 03
+    400024: Flat_stone 04
+    400026: Flat_stone 05
+    400028: Grass
+    400030: Hause_stand
+    400032: House
+    400034: House 02
+    400036: House 03
+    400038: House 04
+    400040: House 05
+    400042: House Con
+    400044: Ladder
+    400046: Landscape
+    400048: Mountain
+    400050: Palm
+    400052: Palm 02
+    400054: Palm 03
+    400056: Pillars
+    400058: Pillars 02
+    400060: Pillars 03
+    400062: Pillars 04
+    400064: Pillars 05
+    400066: Pillars_block
+    400068: Pillars_block 02
+    400070: Pyramid
+    400072: Pyramid 02
+    400074: Pyramid 03
+    400076: Roof
+    400078: Ruins
+    400080: Ruins 02
+    400082: Ruins 03
+    400084: Ruins 04
+    400086: Sfinks
+    400088: Stairs
+    400090: Stand
+    400092: Stone
+    400094: Stone 02
+    400096: Stone_pavement
+    400098: Stone_pavement 02
+    400100: Stone_pavement 03
+    400102: Stone_pavement 04
+    400104: Stone_pavement 05
+    400106: Stone_pavement 06
+    400108: Stone_pavement 07
+    400110: Stone_pavement 08
+    400112: Stone_pavement 09
+    400114: Tower
+    400116: Tower 02
+    400118: Tower 03
+    400120: Wall
+    400122: Wall 02
+    400124: Wall 03
+    400126: Wall 04
+    400128: Wall 05
+    400130: Wall 06
+    400132: Wall_pillar
+    400134: Wall_pillar 02
+    400136: Wall_pillar 03
+    2300000: //RootNode
+    2300002: Barrel
+    2300004: Block
+    2300006: Block 02
+    2300008: Block 03
+    2300010: Cloud
+    2300012: Cloud 02
+    2300014: Cloud 03
+    2300016: Crate
+    2300018: Flat_stone
+    2300020: Flat_stone 02
+    2300022: Flat_stone 03
+    2300024: Flat_stone 04
+    2300026: Flat_stone 05
+    2300028: Grass
+    2300030: Hause_stand
+    2300032: House
+    2300034: House 02
+    2300036: House 03
+    2300038: House 04
+    2300040: House 05
+    2300042: House Con
+    2300044: Ladder
+    2300046: Landscape
+    2300048: Mountain
+    2300050: Palm
+    2300052: Palm 02
+    2300054: Palm 03
+    2300056: Pillars
+    2300058: Pillars 02
+    2300060: Pillars 03
+    2300062: Pillars 04
+    2300064: Pillars 05
+    2300066: Pillars_block
+    2300068: Pillars_block 02
+    2300070: Pyramid
+    2300072: Pyramid 02
+    2300074: Pyramid 03
+    2300076: Roof
+    2300078: Ruins
+    2300080: Ruins 02
+    2300082: Ruins 03
+    2300084: Ruins 04
+    2300086: Sfinks
+    2300088: Stairs
+    2300090: Stand
+    2300092: Stone
+    2300094: Stone 02
+    2300096: Stone_pavement
+    2300098: Stone_pavement 02
+    2300100: Stone_pavement 03
+    2300102: Stone_pavement 04
+    2300104: Stone_pavement 05
+    2300106: Stone_pavement 06
+    2300108: Stone_pavement 07
+    2300110: Stone_pavement 08
+    2300112: Stone_pavement 09
+    2300114: Tower
+    2300116: Tower 02
+    2300118: Tower 03
+    2300120: Wall
+    2300122: Wall 02
+    2300124: Wall 03
+    2300126: Wall 04
+    2300128: Wall 05
+    2300130: Wall 06
+    2300132: Wall_pillar
+    2300134: Wall_pillar 02
+    2300136: Wall_pillar 03
+    3300000: //RootNode
+    3300002: Barrel
+    3300004: Block
+    3300006: Block 02
+    3300008: Block 03
+    3300010: Cloud
+    3300012: Cloud 02
+    3300014: Cloud 03
+    3300016: Crate
+    3300018: Flat_stone
+    3300020: Flat_stone 02
+    3300022: Flat_stone 03
+    3300024: Flat_stone 04
+    3300026: Flat_stone 05
+    3300028: Grass
+    3300030: Hause_stand
+    3300032: House
+    3300034: House 02
+    3300036: House 03
+    3300038: House 04
+    3300040: House 05
+    3300042: House Con
+    3300044: Ladder
+    3300046: Landscape
+    3300048: Mountain
+    3300050: Palm
+    3300052: Palm 02
+    3300054: Palm 03
+    3300056: Pillars
+    3300058: Pillars 02
+    3300060: Pillars 03
+    3300062: Pillars 04
+    3300064: Pillars 05
+    3300066: Pillars_block
+    3300068: Pillars_block 02
+    3300070: Pyramid
+    3300072: Pyramid 02
+    3300074: Pyramid 03
+    3300076: Roof
+    3300078: Ruins
+    3300080: Ruins 02
+    3300082: Ruins 03
+    3300084: Ruins 04
+    3300086: Sfinks
+    3300088: Stairs
+    3300090: Stand
+    3300092: Stone
+    3300094: Stone 02
+    3300096: Stone_pavement
+    3300098: Stone_pavement 02
+    3300100: Stone_pavement 03
+    3300102: Stone_pavement 04
+    3300104: Stone_pavement 05
+    3300106: Stone_pavement 06
+    3300108: Stone_pavement 07
+    3300110: Stone_pavement 08
+    3300112: Stone_pavement 09
+    3300114: Tower
+    3300116: Tower 02
+    3300118: Tower 03
+    3300120: Wall
+    3300122: Wall 02
+    3300124: Wall 03
+    3300126: Wall 04
+    3300128: Wall 05
+    3300130: Wall 06
+    3300132: Wall_pillar
+    3300134: Wall_pillar 02
+    3300136: Wall_pillar 03
+    4300000: Landscape
+    4300002: House 05
+    4300004: House 02
+    4300006: House 03
+    4300008: House 04
+    4300010: Ladder
+    4300012: Hause_stand
+    4300014: Crate
+    4300016: Barrel
+    4300018: House Con
+    4300020: Stand
+    4300022: Roof
+    4300024: Stairs
+    4300026: House
+    4300028: Wall 06
+    4300030: Wall 05
+    4300032: Palm 03
+    4300034: Wall
+    4300036: Flat_stone 05
+    4300038: Flat_stone 04
+    4300040: Wall 04
+    4300042: Wall_pillar 03
+    4300044: Wall_pillar 02
+    4300046: Wall_pillar
+    4300048: Wall 03
+    4300050: Wall 02
+    4300052: Pillars_block 02
+    4300054: Mountain
+    4300056: Sfinks
+    4300058: Pyramid 03
+    4300060: Tower 03
+    4300062: Tower 02
+    4300064: Flat_stone 03
+    4300066: Stone_pavement 09
+    4300068: Stone_pavement 04
+    4300070: Stone_pavement 08
+    4300072: Pyramid
+    4300074: Ruins 04
+    4300076: Ruins 03
+    4300078: Ruins 02
+    4300080: Stone 02
+    4300082: Flat_stone 02
+    4300084: Stone_pavement 03
+    4300086: Stone_pavement 02
+    4300088: Pillars 05
+    4300090: Pillars 02
+    4300092: Block 03
+    4300094: Block 02
+    4300096: Stone_pavement
+    4300098: Cloud 03
+    4300100: Cloud 02
+    4300102: Cloud
+    4300104: Tower
+    4300106: Ruins
+    4300108: Pillars 04
+    4300110: Pillars_block
+    4300112: Pillars 03
+    4300114: Pillars
+    4300116: Grass
+    4300118: Block
+    4300120: Stone_pavement 05
+    4300122: Stone_pavement 06
+    4300124: Stone_pavement 07
+    4300126: Stone
+    4300128: Flat_stone
+    4300130: Palm 02
+    4300132: Palm
+    4300134: Pyramid 02
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

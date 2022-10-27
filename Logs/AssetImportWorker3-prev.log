@@ -1,30 +1,23 @@
-Unity Editor version:    2021.3.7f1 (24e8595d6d43)
-Branch:                  2021.3/staging
-Build type:              Release
-Batch mode:              YES
-macOS version:           Version 12.6 (Build 21G115)
-Darwin version:          21.6.0
-Architecture:            x86_64
-Running under Rosetta:   NO
-Available memory:        16384 MB
 Using pre-set license
-Pro License: YES
+Built from '2021.3/staging' branch; Version is '2021.3.7f1 (24e8595d6d43) revision 2418777'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Enterprise' Language: 'en' Physical Memory: 15970 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2021.3.7f1/Unity.app/Contents/MacOS/Unity
+C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker3
 -projectPath
-/Users/apple/Downloads/VR-Class-Project-main
+C:/Users/melanievasquez/Documents/GitHub/VR-Class-Project
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-52012
-Successfully changed project path to: /Users/apple/Downloads/VR-Class-Project-main
-/Users/apple/Downloads/VR-Class-Project-main
+64045
+Successfully changed project path to: C:/Users/melanievasquez/Documents/GitHub/VR-Class-Project
+C:/Users/melanievasquez/Documents/GitHub/VR-Class-Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,284 +47,460 @@ Successfully changed project path to: /Users/apple/Downloads/VR-Class-Project-ma
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 196.57 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 9.07 ms.
+Refreshing native plugins compatible for Editor in 313.30 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 2.91 ms.
 Initialize engine version: 2021.3.7f1 (24e8595d6d43)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.7f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/apple/Downloads/VR-Class-Project-main/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/melanievasquez/Documents/GitHub/VR-Class-Project/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Color LCD preferred device: AMD Radeon Pro 5500M (high power)
-Metal devices available: 2
-0: AMD Radeon Pro 5500M (high power)
-1: Intel(R) UHD Graphics 630 (low power)
-Using device AMD Radeon Pro 5500M (high power)
-Initializing Metal device caps: AMD Radeon Pro 5500M
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x8a56)
+    Vendor:   Intel
+    VRAM:     7985 MB
+    Driver:   27.20.100.9168
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.7f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.7f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Applications/Unity/Hub/Editor/2021.3.7f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56717
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2021.3.7f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2021.3.7f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2021.3.7f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2021.3.7f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2021.3.7f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2021.3.7f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.002820 seconds.
-Native extension for LinuxStandalone target not found
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.019275 seconds.
 Native extension for WindowsStandalone target not found
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
-[usbmuxd] Send listen message
-[usbmuxd] Attached: 1161 00008020-001E24EE1190003A
-Native extension for iOS target not found
-Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 176.05 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.39 ms.
+Refreshing native plugins compatible for Editor in 286.69 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.166 seconds
+- Completed reload, in  1.653 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1167ms)
-		BeginReloadAssembly (128ms)
+	ReloadAssembly (1654ms)
+		BeginReloadAssembly (153ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (846ms)
-			LoadAssemblies (128ms)
+		EndReloadAssembly (1224ms)
+			LoadAssemblies (151ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (200ms)
+			SetupTypeCache (267ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (519ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (768ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (134ms)
+				InitializePlatformSupportModulesInManaged (25ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (176ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (140ms)
-				ProcessInitializeOnLoadMethodAttributes (65ms)
+				RefreshPlugins (287ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (334ms)
+				ProcessInitializeOnLoadMethodAttributes (117ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005882 seconds.
-An ADB process has shut down when we were accessing it, the following System.ArgumentOutOfRangeException has been thrown: Index was out of range. Must be non-negative and less than the size of the collection.
-Parameter name: index.
-An ADB process has shut down when we were accessing it, the following System.ArgumentOutOfRangeException has been thrown: Index was out of range. Must be non-negative and less than the size of the collection.
-Parameter name: index.
-An ADB process has shut down when we were accessing it, the following System.ArgumentOutOfRangeException has been thrown: Index was out of range. Must be non-negative and less than the size of the collection.
-Parameter name: index.
-An ADB process has shut down when we were accessing it, the following System.ArgumentOutOfRangeException has been thrown: Index was out of range. Must be non-negative and less than the size of the collection.
-Parameter name: index.
+Registered in 0.031230 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/apple/Downloads/VR-Class-Project-main/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/apple/Downloads/VR-Class-Project-main/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for LinuxStandalone target not found
+Symbol file LoadedFromMemory doesn't match image C:\Users\melanievasquez\Documents\GitHub\VR-Class-Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\melanievasquez\Documents\GitHub\VR-Class-Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 186.37 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.43 ms.
+Refreshing native plugins compatible for Editor in 233.68 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Package Manager log level set to [2]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\melanievasquez\Documents\GitHub\VR-Class-Project\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\melanievasquez\Documents\GitHub\VR-Class-Project\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <c2a97e0383e8404c9fc0ae19d58f57f1>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <c2a97e0383e8404c9fc0ae19d58f57f1>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <c2a97e0383e8404c9fc0ae19d58f57f1>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <33518779906b403ba9f96eccba6a861b>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
 Mono: successfully reloaded assembly
-- Completed reload, in  2.505 seconds
+- Completed reload, in  3.263 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2506ms)
-		BeginReloadAssembly (265ms)
+	ReloadAssembly (3265ms)
+		BeginReloadAssembly (260ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (15ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (141ms)
-		EndReloadAssembly (2037ms)
-			LoadAssemblies (112ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (565ms)
-			ReleaseScriptCaches (10ms)
-			RebuildScriptCaches (122ms)
-			SetupLoadedEditorAssemblies (1122ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (2705ms)
+			LoadAssemblies (249ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (587ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (162ms)
+			SetupLoadedEditorAssemblies (1560ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (38ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (187ms)
-				BeforeProcessingInitializeOnLoad (175ms)
-				ProcessInitializeOnLoadAttributes (559ms)
-				ProcessInitializeOnLoadMethodAttributes (158ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				RefreshPlugins (234ms)
+				BeforeProcessingInitializeOnLoad (254ms)
+				ProcessInitializeOnLoadAttributes (767ms)
+				ProcessInitializeOnLoadMethodAttributes (266ms)
+				AfterProcessingInitializeOnLoad (22ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/Hub/Editor/2021.3.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
-Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.42 ms.
-Unloading 5953 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 54 unused Assets / (357.5 KB). Loaded Objects now: 6409.
-Memory consumption went from 373.2 MB to 372.8 MB.
-Total: 6.212513 ms (FindLiveObjects: 0.563118 ms CreateObjectMapping: 0.527833 ms MarkObjects: 4.864353 ms  DeleteObjects: 0.256016 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Refreshing native plugins compatible for Editor in 2.93 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.28 ms.
+Unloading 6057 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (0.7 MB). Loaded Objects now: 6495.
+Memory consumption went from 252.2 MB to 251.5 MB.
+Total: 9.213600 ms (FindLiveObjects: 0.867900 ms CreateObjectMapping: 0.559000 ms MarkObjects: 6.996500 ms  DeleteObjects: 0.787500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 137022.397214 seconds.
-  path: Assets/VillagePack/Well/Materials/Rope.mat
-  artifactKey: Guid(bae07849ede7f9749afae80f6a3c98ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VillagePack/Well/Materials/Rope.mat using Guid(bae07849ede7f9749afae80f6a3c98ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c545913263db0a076eb71dfc8b4e804d') in 0.668868 seconds 
+  Time since last request: 1218619.877214 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Constructions/House_03.prefab
+  artifactKey: Guid(ea8faec00559165489412d623881dc3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Constructions/House_03.prefab using Guid(ea8faec00559165489412d623881dc3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a857732244ee60ffe588c880a5c8f5') in 0.606471 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 291.850357 seconds.
-  path: Assets/VillagePack/Fence/FencePrefab.prefab
-  artifactKey: Guid(2394d7d557201f048b00c84246231eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VillagePack/Fence/FencePrefab.prefab using Guid(2394d7d557201f048b00c84246231eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8ac1ffe1fcafc9d0e5fa852e77b222') in 0.202569 seconds 
+  Time since last request: 21.871561 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Terrain/Mountain.prefab
+  artifactKey: Guid(e603cd968f829cd4cadbdfce4f2b50a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Terrain/Mountain.prefab using Guid(e603cd968f829cd4cadbdfce4f2b50a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e74402b85a7bd2d673c0efc1fed1cf0') in 0.044080 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.026609 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\melanievasquez\Documents\GitHub\VR-Class-Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\melanievasquez\Documents\GitHub\VR-Class-Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.57 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\melanievasquez\Documents\GitHub\VR-Class-Project\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\melanievasquez\Documents\GitHub\VR-Class-Project\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <c2a97e0383e8404c9fc0ae19d58f57f1>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <c2a97e0383e8404c9fc0ae19d58f57f1>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <c2a97e0383e8404c9fc0ae19d58f57f1>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <33518779906b403ba9f96eccba6a861b>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.026 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3027ms)
+		BeginReloadAssembly (249ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (2506ms)
+			LoadAssemblies (217ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (700ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (121ms)
+			SetupLoadedEditorAssemblies (1207ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (218ms)
+				ProcessInitializeOnLoadAttributes (700ms)
+				ProcessInitializeOnLoadMethodAttributes (226ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (68ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 14.49 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Unloading 5859 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (0.7 MB). Loaded Objects now: 6554.
+Memory consumption went from 252.9 MB to 252.3 MB.
+Total: 6.331900 ms (FindLiveObjects: 0.507600 ms CreateObjectMapping: 0.441400 ms MarkObjects: 5.033300 ms  DeleteObjects: 0.348000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.151959 seconds.
-  path: Assets/VillagePack/Fence/Materials/FenceCubeStick.002.mat
-  artifactKey: Guid(fcdef4c3a81cc3e448a65a2c26199cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VillagePack/Fence/Materials/FenceCubeStick.002.mat using Guid(fcdef4c3a81cc3e448a65a2c26199cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da0080522a4430069d2dfc0dbaab7b88') in 0.015475 seconds 
+  Time since last request: 100.514203 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Ruins/Pillars_02.prefab
+  artifactKey: Guid(c48ed3c2ead14904d9b7ba01206c9d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Ruins/Pillars_02.prefab using Guid(c48ed3c2ead14904d9b7ba01206c9d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1cd2ecffd8b4046fdd70229de91d312') in 0.447617 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000110 seconds.
-  path: Assets/VillagePack/Fence/Materials/FenceStickBackSides.mat
-  artifactKey: Guid(cab5df8cac6b9f44599b14eb69a0ea88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VillagePack/Fence/Materials/FenceStickBackSides.mat using Guid(cab5df8cac6b9f44599b14eb69a0ea88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a3081ad4f4fcf488b0e605dd919e7e') in 0.032963 seconds 
+  Time since last request: 0.000042 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Ruins/Tower_02.prefab
+  artifactKey: Guid(bae13a8b9e5943743b2c64c25816a286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Ruins/Tower_02.prefab using Guid(bae13a8b9e5943743b2c64c25816a286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61bca7e41f5fe8005b21f64d86f74a6') in 0.028696 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/VillagePack/Fence/Materials/FenceStick.001.mat
-  artifactKey: Guid(08aa212e2647cc04cad79a28fbe01a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VillagePack/Fence/Materials/FenceStick.001.mat using Guid(08aa212e2647cc04cad79a28fbe01a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee9f5cff46bf681b8dd805d00e79ac5b') in 0.019301 seconds 
+  Time since last request: 0.000050 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Ruins/Ruins.prefab
+  artifactKey: Guid(610d0a512817b774396e2f327bb6dba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Ruins/Ruins.prefab using Guid(610d0a512817b774396e2f327bb6dba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bed204502cccd152ae2e576851053ea') in 0.033243 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/VillagePack/Fence/Materials/FenceStickBackSides.001.mat
-  artifactKey: Guid(d7aabea3156468f41a2b29b21a11d47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VillagePack/Fence/Materials/FenceStickBackSides.001.mat using Guid(d7aabea3156468f41a2b29b21a11d47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e261122a50be8df7f29c85fb132a7125') in 0.014555 seconds 
+  Time since last request: 0.000031 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Ruins/Ruins_04.prefab
+  artifactKey: Guid(5de2244686090c84da32f181303d4a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Ruins/Ruins_04.prefab using Guid(5de2244686090c84da32f181303d4a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91dd204f131863991b094fc3295fe45e') in 0.034145 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.244867 seconds.
-  path: Assets/VillagePack/Fence/Materials/FenceCubeStick.mat
-  artifactKey: Guid(4f2703713ff0ab746ad8f8086784ab37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VillagePack/Fence/Materials/FenceCubeStick.mat using Guid(4f2703713ff0ab746ad8f8086784ab37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643b894ee16d1f6085a85646925313b7') in 2.431030 seconds 
+  Time since last request: 0.000052 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Ruins/Ruins_03.prefab
+  artifactKey: Guid(7ee9e8d22359b034290ae657b39c4d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Ruins/Ruins_03.prefab using Guid(7ee9e8d22359b034290ae657b39c4d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350aadcb11e18add0441f3308891adef') in 0.025500 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.243560 seconds.
-  path: Assets/VillagePack/Fence/Materials/FenceCubeStick.mat
-  artifactKey: Guid(4f2703713ff0ab746ad8f8086784ab37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VillagePack/Fence/Materials/FenceCubeStick.mat using Guid(4f2703713ff0ab746ad8f8086784ab37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d852202549b90332259ada0cef57c2') in 0.021875 seconds 
+  Time since last request: 0.000041 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Ruins/Pyramid.prefab
+  artifactKey: Guid(ae9b80a7a7f4ab94c9fd333f9ec6ec44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Ruins/Pyramid.prefab using Guid(ae9b80a7a7f4ab94c9fd333f9ec6ec44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80f29fa3db13225c44fdf222dadaf4fd') in 0.029276 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.508334 seconds.
-  path: Assets/VillagePack/Fence/FencePrefab.prefab
-  artifactKey: Guid(2394d7d557201f048b00c84246231eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VillagePack/Fence/FencePrefab.prefab using Guid(2394d7d557201f048b00c84246231eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6089a0fe340fe0a3d53b679309d3039c') in 1.845953 seconds 
-[usbmuxd] Detached: 1161 00008020-001E24EE1190003A
+  Time since last request: 0.000336 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Ruins/Ruins_02.prefab
+  artifactKey: Guid(8da8dc0d433f5b0499a5f24576a8f56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Ruins/Ruins_02.prefab using Guid(8da8dc0d433f5b0499a5f24576a8f56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986462362e34abfdc55662f06e0fd925') in 0.028657 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1945.471011 seconds.
-  path: Assets/VillagePack/OldHouse/OldHousePrefab.prefab
-  artifactKey: Guid(2082f115d38a4a94fabde959cb0bfd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VillagePack/OldHouse/OldHousePrefab.prefab using Guid(2082f115d38a4a94fabde959cb0bfd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6eb64b50c8ffa66cf3b307bf0a8f4ef') in 2.327812 seconds 
+  Time since last request: 0.000057 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Ruins/Pillars_03.prefab
+  artifactKey: Guid(26105b4bb06a46b41bace15d7cac729e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Ruins/Pillars_03.prefab using Guid(26105b4bb06a46b41bace15d7cac729e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43057c881f33773f1b8006daddc33bcd') in 0.029945 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/VillagePack/OldHouse/VhRoofBeamBump.png
-  artifactKey: Guid(1f2ebf25d09b1b24ca0340d76fc6c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VillagePack/OldHouse/VhRoofBeamBump.png using Guid(1f2ebf25d09b1b24ca0340d76fc6c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7b9a38e93fbf38e755ae3d4b9a30e7') in 0.235411 seconds 
+  Time since last request: 0.000037 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Ruins/Pyramid_02.prefab
+  artifactKey: Guid(b00330274d92f264a93fb4a6c7e2a887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Ruins/Pyramid_02.prefab using Guid(b00330274d92f264a93fb4a6c7e2a887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d17bfb6cbed248f0938fadb61946319') in 0.029283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.056750 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Rocks/Block_02.prefab
+  artifactKey: Guid(4249799699ef4fe459aed6f4a306ec0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Rocks/Block_02.prefab using Guid(4249799699ef4fe459aed6f4a306ec0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1888271de744a227143536ed3119dd6f') in 0.035316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Rocks/Flat_Stone_04.prefab
+  artifactKey: Guid(9b3dad5e8d768d84cb88869074bf8c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Rocks/Flat_Stone_04.prefab using Guid(9b3dad5e8d768d84cb88869074bf8c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7abcf7a43c056eb96490c9b5b51c0f') in 0.037335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Rocks/Stone_Pavement_05.prefab
+  artifactKey: Guid(20b1ed49b755ea04792d9d59aedd6a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Rocks/Stone_Pavement_05.prefab using Guid(20b1ed49b755ea04792d9d59aedd6a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02175d3796a2bfed4898e3db8293f80') in 0.038577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Rocks/Stone_Pavement_09.prefab
+  artifactKey: Guid(0ef7d78dd54de404cbbf46f8861f8b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Rocks/Stone_Pavement_09.prefab using Guid(0ef7d78dd54de404cbbf46f8861f8b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '311dc30fca2eb5097c9f5da97e759ede') in 0.027364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Rocks/Flat_Stone_03.prefab
+  artifactKey: Guid(a4ba1d1b444679546a072a4052cfdc85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Rocks/Flat_Stone_03.prefab using Guid(a4ba1d1b444679546a072a4052cfdc85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b949d363508842eb8c3907d5ab5f5a5') in 0.024730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Rocks/Stone_Pavement_02.prefab
+  artifactKey: Guid(29a091a6d96047b4abfda58eb5c61a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Rocks/Stone_Pavement_02.prefab using Guid(29a091a6d96047b4abfda58eb5c61a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38432772ad198f0d6b06b8a63b741de2') in 0.027053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Rocks/Flat_Stone.prefab
+  artifactKey: Guid(f00e03d0a8f35844484dfe965e532be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Rocks/Flat_Stone.prefab using Guid(f00e03d0a8f35844484dfe965e532be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7caf943fab2fa473abc81e3c5b0b031') in 0.030062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Rocks/Flat_stone_cliff_02.prefab
+  artifactKey: Guid(6fbabe01c3595d441ae89d4d3f70024a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Rocks/Flat_stone_cliff_02.prefab using Guid(6fbabe01c3595d441ae89d4d3f70024a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de37b822bfcc1fe4f923ea7c7950b77') in 0.024286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Rocks/Stone_02.prefab
+  artifactKey: Guid(864afcbe219688e49bf534b5bb35e781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Rocks/Stone_02.prefab using Guid(864afcbe219688e49bf534b5bb35e781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cded111f7067d2dfb367ec207ac1cd14') in 0.028486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Rocks/Flat_Stone_02.prefab
+  artifactKey: Guid(b1bea1c50630af548b03c1b2c4d115ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Rocks/Flat_Stone_02.prefab using Guid(b1bea1c50630af548b03c1b2c4d115ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e630191d52260bf21c2b13dc8e59bd') in 0.025930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Rocks/Stand.prefab
+  artifactKey: Guid(a2ab1213005445b4ab93c18283cee681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Rocks/Stand.prefab using Guid(a2ab1213005445b4ab93c18283cee681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd8d46e48b8ee61328798c12279a224') in 0.027321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Rocks/Flat_Stone_05.prefab
+  artifactKey: Guid(08728c564bbabf445bb7528e5bb07329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Rocks/Flat_Stone_05.prefab using Guid(08728c564bbabf445bb7528e5bb07329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef854ec20ce8e1247f5d3b9c1ca45370') in 0.025801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.239999 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Props/Crate.prefab
+  artifactKey: Guid(ff633bc3431e1ea4f8358c4a365a9a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Props/Crate.prefab using Guid(ff633bc3431e1ea4f8358c4a365a9a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a9826368813f3d2d48a4f70b403c49') in 0.028422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Props/Fence_02.prefab
+  artifactKey: Guid(ee4ccbb53c8a60649933b5405a55678f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Props/Fence_02.prefab using Guid(ee4ccbb53c8a60649933b5405a55678f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b62d207acdb08ec94bb3044286cf32') in 0.034793 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000101 seconds.
-  path: Assets/VillagePack/OldHouse/VHFloorbump.png
-  artifactKey: Guid(20144227dc3d3084f855ee7bbb3e1cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VillagePack/OldHouse/VHFloorbump.png using Guid(20144227dc3d3084f855ee7bbb3e1cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278bea823afe4cbaec02ab149bb66a1a') in 0.012009 seconds 
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Props/Fence.prefab
+  artifactKey: Guid(792bb0b5f1bd27544ac12be5caf8281d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Props/Fence.prefab using Guid(792bb0b5f1bd27544ac12be5caf8281d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0aed5b0f73f664ae76a59dbebc224fb') in 0.027104 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/VillagePack/OldHouse/VHWallsWood.png
-  artifactKey: Guid(01538a64a4b1e9c47baacae8db4399ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VillagePack/OldHouse/VHWallsWood.png using Guid(01538a64a4b1e9c47baacae8db4399ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '095c32fb99267f7f335d107cd2e52f16') in 0.033196 seconds 
+  Time since last request: 0.865425 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Nature/Grass.prefab
+  artifactKey: Guid(1a437bbe37ee08849b087ab1e73f1099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Nature/Grass.prefab using Guid(1a437bbe37ee08849b087ab1e73f1099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d04a3190c72faae7774f3e15f3d44c') in 0.025989 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/VillagePack/OldHouse/VhRoofBeam.png
-  artifactKey: Guid(96b5269f1b04f0d46b27d83b3c5c9e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VillagePack/OldHouse/VhRoofBeam.png using Guid(96b5269f1b04f0d46b27d83b3c5c9e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18e8cb0b40bfa082caa57cac917e0c6') in 0.013655 seconds 
+  Time since last request: 0.000026 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Nature/Grass_03.prefab
+  artifactKey: Guid(db7e5c49bc52d504897fb38617383396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Nature/Grass_03.prefab using Guid(db7e5c49bc52d504897fb38617383396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf43f9a9cfef61a681ca7d65fdb76254') in 0.024589 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/VillagePack/OldHouse/VHRoofBump.png
-  artifactKey: Guid(cf2650c5837f0e34dbd3c79ddd1e5202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VillagePack/OldHouse/VHRoofBump.png using Guid(cf2650c5837f0e34dbd3c79ddd1e5202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eebffdd760d3a0e9e4c6f55e7ca3d88') in 0.015306 seconds 
+  Time since last request: 0.000038 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Nature/Palm.prefab
+  artifactKey: Guid(f21c5e031652a044f801d40f3e3250a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Nature/Palm.prefab using Guid(f21c5e031652a044f801d40f3e3250a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f20ee49d8d47f8a1f45327dabe4c0f') in 0.025130 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.022973 seconds.
-  path: Assets/VillagePack/OldHouse/VHWallsWoodReflection.png
-  artifactKey: Guid(628d677ce8e1e564fa24221710488702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VillagePack/OldHouse/VHWallsWoodReflection.png using Guid(628d677ce8e1e564fa24221710488702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847057fa7120263cbe9127d58951a00d') in 0.017505 seconds 
+  Time since last request: 0.000038 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Nature/Palm_04.prefab
+  artifactKey: Guid(fd3b1338f0a031f4bb8fb388ce230647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Nature/Palm_04.prefab using Guid(fd3b1338f0a031f4bb8fb388ce230647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ec97916e603322b4a448f64d606065') in 0.028571 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/VillagePack/OldHouse/VHFloorReflection.png
-  artifactKey: Guid(69496a935f64b8d4e9af45080f1846cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VillagePack/OldHouse/VHFloorReflection.png using Guid(69496a935f64b8d4e9af45080f1846cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276edbb90bb48c6656a5b0462347611c') in 0.014098 seconds 
+  Time since last request: 3.389749 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Buildings/Building_02.prefab
+  artifactKey: Guid(15a898169e32ef741ae58ce40ced6f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Buildings/Building_02.prefab using Guid(15a898169e32ef741ae58ce40ced6f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d76bbff79cec7091564fdd6cfdeb30c') in 0.023970 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/VillagePack/OldHouse/VHDecorationWood.png
-  artifactKey: Guid(f1f3a21fbeb4283488049ea216fcaad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VillagePack/OldHouse/VHDecorationWood.png using Guid(f1f3a21fbeb4283488049ea216fcaad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aba8ad7f6fb630d2a6a5ba5e8204b92') in 0.019941 seconds 
+  Time since last request: 0.000050 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Buildings/Building_03.prefab
+  artifactKey: Guid(a6258193ba6eb42458fe32bdca2fd37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Buildings/Building_03.prefab using Guid(a6258193ba6eb42458fe32bdca2fd37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867a96a95f04bec97424b60ab27553f6') in 0.032457 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/VillagePack/OldHouse/VHFrameWoodBump.png
-  artifactKey: Guid(b32f987e367a5864e8b76d58821e2504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VillagePack/OldHouse/VHFrameWoodBump.png using Guid(b32f987e367a5864e8b76d58821e2504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b526b1be8675c9b85d977b6fd95860') in 0.013192 seconds 
+  Time since last request: 0.000058 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Buildings/Building_04.prefab
+  artifactKey: Guid(cc61baefc0838b143912eabbfa83ff2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Buildings/Building_04.prefab using Guid(cc61baefc0838b143912eabbfa83ff2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec0d0cee49c73eefd8bc504ba8d3d02') in 0.029151 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/VillagePack/OldHouse/VHRoofReflection.png
-  artifactKey: Guid(e5fe530986054d94fbb5d408360d7f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VillagePack/OldHouse/VHRoofReflection.png using Guid(e5fe530986054d94fbb5d408360d7f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f413b24a4efff28e6269119e2ad8e10d') in 0.014960 seconds 
+  Time since last request: 0.000049 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Buildings/Building_07.prefab
+  artifactKey: Guid(b9d29bae4b1fedf4186b43b1ad03c4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Buildings/Building_07.prefab using Guid(b9d29bae4b1fedf4186b43b1ad03c4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867ba2dd9206e15a786913fbd6d52ef7') in 0.029319 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/VillagePack/OldHouse/VHWallsWoodBump.png
-  artifactKey: Guid(27cdd57b05f42c4429740b17d6318ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VillagePack/OldHouse/VHWallsWoodBump.png using Guid(27cdd57b05f42c4429740b17d6318ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91886f855c0b7b8beeb70d044c344b1e') in 0.013563 seconds 
+  Time since last request: 0.000055 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Prefabs/Buildings/Building_08.prefab
+  artifactKey: Guid(d284c969ae24e39468ef1f4a1184042f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Prefabs/Buildings/Building_08.prefab using Guid(d284c969ae24e39468ef1f4a1184042f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4797ed694d992d2a6595fef048844b59') in 0.029037 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/VillagePack/OldHouse/VHDecorationWoodReflection.png
-  artifactKey: Guid(8e9e9cab61928be48bc45b48888f7218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VillagePack/OldHouse/VHDecorationWoodReflection.png using Guid(8e9e9cab61928be48bc45b48888f7218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33cb646b981e4ae8227d7a5d794125d3') in 0.015224 seconds 
+  Time since last request: 15.799977 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Textures/grayscale ramp.png
+  artifactKey: Guid(e9a9781cad112c75d0008dfa8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Textures/grayscale ramp.png using Guid(e9a9781cad112c75d0008dfa8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3b07c87ca66d1a226582f3388dfb45') in 0.082110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Textures/VignetteMask.png
+  artifactKey: Guid(95ef4804fe0be4c999ddaa383536cde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Textures/VignetteMask.png using Guid(95ef4804fe0be4c999ddaa383536cde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52f9dc3a73c97868466e74c4a969550') in 0.026970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Textures/MotionBlurJitter.png
+  artifactKey: Guid(31f5a8611c4ed1245b18456206e798dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Textures/MotionBlurJitter.png using Guid(31f5a8611c4ed1245b18456206e798dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512f61e0e150cc305159606f2e20e273') in 0.020894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Textures/NoiseAndGrain.png
+  artifactKey: Guid(7a632f967e8ad42f5bd275898151ab6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Textures/NoiseAndGrain.png using Guid(7a632f967e8ad42f5bd275898151ab6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba1aab32d92b89a079d18d2032ec06e') in 0.019502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.714951 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Meshes/Ruins_03.fbx
+  artifactKey: Guid(3bda102841d374346ad6e8670e31446e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Meshes/Ruins_03.fbx using Guid(3bda102841d374346ad6e8670e31446e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ded0b00a8d1bba760388e41a18fb37') in 0.661790 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000069 seconds.
-  path: Assets/VillagePack/OldHouse/VHRoof.png
-  artifactKey: Guid(94a894a4fbe572e48a9b42651e781fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VillagePack/OldHouse/VHRoof.png using Guid(94a894a4fbe572e48a9b42651e781fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4fed1c1ac5bdca00d2b710153d64ce') in 0.026982 seconds 
+  path: Assets/Low Poly Egypt Starter Kit/Meshes/Stone_02.fbx
+  artifactKey: Guid(2c027e4ae6298ae4ea1d88d590b3b28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Meshes/Stone_02.fbx using Guid(2c027e4ae6298ae4ea1d88d590b3b28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c60b43828ff2014b27b96d552484d74') in 0.046525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Low Poly Egypt Starter Kit/Meshes/Wall_05.fbx
+  artifactKey: Guid(36777f1b7375c34419552b86eb9e1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Egypt Starter Kit/Meshes/Wall_05.fbx using Guid(36777f1b7375c34419552b86eb9e1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ed9e18e5b9b5c0fbdb32896695ed9f5') in 0.059840 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
