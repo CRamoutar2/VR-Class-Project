@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 10110823}
   - component: {fileID: 10110825}
   - component: {fileID: 10110824}
+  - component: {fileID: 10110826}
   m_Layer: 0
   m_Name: Flat_Stone_04
   m_TagString: Untagged
@@ -209,6 +210,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 10110822}
+  m_Mesh: {fileID: 4300000, guid: cc399f2b8375ed54e86a0b9926d1c508, type: 3}
+--- !u!64 &10110826
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10110822}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: cc399f2b8375ed54e86a0b9926d1c508, type: 3}
 --- !u!1 &34985548
 GameObject:
@@ -588,6 +603,7 @@ GameObject:
   - component: {fileID: 50573332}
   - component: {fileID: 50573334}
   - component: {fileID: 50573333}
+  - component: {fileID: 50573335}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -663,6 +679,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 50573331}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &50573335
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50573331}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011067389, y: 0.001327768, z: 0.00043821332}
 --- !u!1 &55024465
 GameObject:
   m_ObjectHideFlags: 0
@@ -762,6 +791,7 @@ GameObject:
   - component: {fileID: 82537699}
   - component: {fileID: 82537701}
   - component: {fileID: 82537700}
+  - component: {fileID: 82537702}
   m_Layer: 0
   m_Name: Stone
   m_TagString: Untagged
@@ -837,6 +867,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 82537698}
   m_Mesh: {fileID: 4300000, guid: 1194b43de1e61ba4c835a60bccdfa0c5, type: 3}
+--- !u!64 &82537702
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82537698}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 1194b43de1e61ba4c835a60bccdfa0c5, type: 3}
 --- !u!1 &87334643
 GameObject:
   m_ObjectHideFlags: 0
@@ -849,6 +893,7 @@ GameObject:
   - component: {fileID: 87334644}
   - component: {fileID: 87334646}
   - component: {fileID: 87334645}
+  - component: {fileID: 87334647}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -924,6 +969,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 87334643}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &87334647
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87334643}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.0013275295, z: 0.0004458427}
 --- !u!1 &98969403
 GameObject:
   m_ObjectHideFlags: 0
@@ -936,6 +994,7 @@ GameObject:
   - component: {fileID: 98969404}
   - component: {fileID: 98969406}
   - component: {fileID: 98969405}
+  - component: {fileID: 98969407}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -1011,6 +1070,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 98969403}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &98969407
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98969403}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.0013275295, z: 0.0004467964}
 --- !u!1 &126284201
 GameObject:
   m_ObjectHideFlags: 0
@@ -1116,6 +1188,7 @@ GameObject:
   - component: {fileID: 161987921}
   - component: {fileID: 161987923}
   - component: {fileID: 161987922}
+  - component: {fileID: 161987924}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -1191,6 +1264,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 161987920}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &161987924
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161987920}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.0013275295, z: 0.0004467964}
 --- !u!1 &166312247
 GameObject:
   m_ObjectHideFlags: 0
@@ -1203,6 +1289,7 @@ GameObject:
   - component: {fileID: 166312248}
   - component: {fileID: 166312250}
   - component: {fileID: 166312249}
+  - component: {fileID: 166312251}
   m_Layer: 0
   m_Name: Palm_02
   m_TagString: Untagged
@@ -1277,6 +1364,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 166312247}
+  m_Mesh: {fileID: 4300000, guid: d2d0c368e2d5ae74a8142350348516eb, type: 3}
+--- !u!64 &166312251
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 166312247}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: d2d0c368e2d5ae74a8142350348516eb, type: 3}
 --- !u!1 &173929813
 GameObject:
@@ -1464,6 +1565,7 @@ GameObject:
   - component: {fileID: 183977197}
   - component: {fileID: 183977199}
   - component: {fileID: 183977198}
+  - component: {fileID: 183977200}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -1539,6 +1641,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 183977196}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &183977200
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183977196}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.0013275295, z: 0.0004458427}
 --- !u!1 &191798755
 GameObject:
   m_ObjectHideFlags: 0
@@ -1638,6 +1753,7 @@ GameObject:
   - component: {fileID: 252970872}
   - component: {fileID: 252970874}
   - component: {fileID: 252970873}
+  - component: {fileID: 252970875}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -1713,6 +1829,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 252970871}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &252970875
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252970871}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.001327768, z: 0.0004496574}
 --- !u!1 &274157289
 GameObject:
   m_ObjectHideFlags: 0
@@ -1812,6 +1941,7 @@ GameObject:
   - component: {fileID: 284230893}
   - component: {fileID: 284230895}
   - component: {fileID: 284230894}
+  - component: {fileID: 284230896}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -1887,6 +2017,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 284230892}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &284230896
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284230892}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.001327768, z: 0.0004496574}
 --- !u!1 &285847149
 GameObject:
   m_ObjectHideFlags: 0
@@ -1899,6 +2042,7 @@ GameObject:
   - component: {fileID: 285847150}
   - component: {fileID: 285847152}
   - component: {fileID: 285847151}
+  - component: {fileID: 285847153}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -1974,6 +2118,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 285847149}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &285847153
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 285847149}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.001327768, z: 0.00043821332}
 --- !u!1 &307135032
 GameObject:
   m_ObjectHideFlags: 0
@@ -1986,6 +2143,7 @@ GameObject:
   - component: {fileID: 307135033}
   - component: {fileID: 307135035}
   - component: {fileID: 307135034}
+  - component: {fileID: 307135036}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -2061,6 +2219,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 307135032}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &307135036
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307135032}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011096, y: 0.001327768, z: 0.0004496574}
 --- !u!1 &314173242
 GameObject:
   m_ObjectHideFlags: 0
@@ -2073,6 +2244,7 @@ GameObject:
   - component: {fileID: 314173243}
   - component: {fileID: 314173245}
   - component: {fileID: 314173244}
+  - component: {fileID: 314173246}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -2148,6 +2320,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 314173242}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &314173246
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314173242}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.001327768, z: 0.0004496574}
 --- !u!1 &322825040
 GameObject:
   m_ObjectHideFlags: 0
@@ -2160,6 +2345,7 @@ GameObject:
   - component: {fileID: 322825041}
   - component: {fileID: 322825043}
   - component: {fileID: 322825042}
+  - component: {fileID: 322825044}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -2235,6 +2421,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 322825040}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &322825044
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322825040}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.0013275295, z: 0.0004467964}
 --- !u!1 &328425665
 GameObject:
   m_ObjectHideFlags: 0
@@ -2247,6 +2446,7 @@ GameObject:
   - component: {fileID: 328425666}
   - component: {fileID: 328425668}
   - component: {fileID: 328425667}
+  - component: {fileID: 328425669}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -2322,6 +2522,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 328425665}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &328425669
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328425665}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.0013275295, z: 0.0004467964}
 --- !u!1 &341953587
 GameObject:
   m_ObjectHideFlags: 0
@@ -2334,6 +2547,7 @@ GameObject:
   - component: {fileID: 341953588}
   - component: {fileID: 341953590}
   - component: {fileID: 341953589}
+  - component: {fileID: 341953591}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -2409,6 +2623,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 341953587}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &341953591
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341953587}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011096, y: 0.0013275295, z: 0.0004467964}
 --- !u!1 &364578160
 GameObject:
   m_ObjectHideFlags: 0
@@ -3214,6 +3441,7 @@ GameObject:
   - component: {fileID: 473422115}
   - component: {fileID: 473422117}
   - component: {fileID: 473422116}
+  - component: {fileID: 473422118}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -3289,6 +3517,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 473422114}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &473422118
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473422114}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.0013275295, z: 0.0004458427}
 --- !u!1 &503543669
 GameObject:
   m_ObjectHideFlags: 0
@@ -3301,6 +3542,7 @@ GameObject:
   - component: {fileID: 503543670}
   - component: {fileID: 503543672}
   - component: {fileID: 503543671}
+  - component: {fileID: 503543673}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -3376,6 +3618,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 503543669}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &503543673
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503543669}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011096, y: 0.0013275295, z: 0.0004458427}
 --- !u!1 &532350476
 GameObject:
   m_ObjectHideFlags: 0
@@ -3536,6 +3791,7 @@ GameObject:
   - component: {fileID: 556635534}
   - component: {fileID: 556635536}
   - component: {fileID: 556635535}
+  - component: {fileID: 556635537}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -3611,6 +3867,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 556635533}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &556635537
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 556635533}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011096, y: 0.0013275295, z: 0.0004467964}
 --- !u!1 &568639280
 GameObject:
   m_ObjectHideFlags: 0
@@ -3710,6 +3979,7 @@ GameObject:
   - component: {fileID: 616868644}
   - component: {fileID: 616868646}
   - component: {fileID: 616868645}
+  - component: {fileID: 616868647}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -3785,6 +4055,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 616868643}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &616868647
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616868643}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.001327768, z: 0.00043821332}
 --- !u!1 &625603460
 GameObject:
   m_ObjectHideFlags: 0
@@ -3920,6 +4203,7 @@ GameObject:
   - component: {fileID: 661263071}
   - component: {fileID: 661263073}
   - component: {fileID: 661263072}
+  - component: {fileID: 661263074}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -3995,6 +4279,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 661263070}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &661263074
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661263070}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.0013275295, z: 0.0004467964}
 --- !u!1 &682334519
 GameObject:
   m_ObjectHideFlags: 0
@@ -4617,6 +4914,7 @@ GameObject:
   - component: {fileID: 718490791}
   - component: {fileID: 718490793}
   - component: {fileID: 718490792}
+  - component: {fileID: 718490794}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -4692,6 +4990,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 718490790}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &718490794
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718490790}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.001327768, z: 0.00043821332}
 --- !u!1 &725957248 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6598815579406187037, guid: 9f5a24a380916d14db9775daab4fe333,
@@ -4710,6 +5021,7 @@ GameObject:
   - component: {fileID: 735012688}
   - component: {fileID: 735012690}
   - component: {fileID: 735012689}
+  - component: {fileID: 735012691}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -4785,6 +5097,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 735012687}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &735012691
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735012687}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011019706, y: 0.001327768, z: 0.00043821332}
 --- !u!1 &741808397
 GameObject:
   m_ObjectHideFlags: 0
@@ -4884,6 +5209,7 @@ GameObject:
   - component: {fileID: 752303725}
   - component: {fileID: 752303727}
   - component: {fileID: 752303726}
+  - component: {fileID: 752303728}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -4959,6 +5285,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 752303724}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &752303728
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 752303724}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011019706, y: 0.0013275295, z: 0.0004458427}
 --- !u!1 &755102506
 GameObject:
   m_ObjectHideFlags: 0
@@ -4971,6 +5310,7 @@ GameObject:
   - component: {fileID: 755102507}
   - component: {fileID: 755102509}
   - component: {fileID: 755102508}
+  - component: {fileID: 755102510}
   m_Layer: 0
   m_Name: Block_03
   m_TagString: Untagged
@@ -5046,6 +5386,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 755102506}
   m_Mesh: {fileID: 4300000, guid: ee3d25dd32f69c2499fd3bb8925fe1c9, type: 3}
+--- !u!64 &755102510
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 755102506}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: ee3d25dd32f69c2499fd3bb8925fe1c9, type: 3}
 --- !u!1 &769384426
 GameObject:
   m_ObjectHideFlags: 0
@@ -5058,6 +5412,7 @@ GameObject:
   - component: {fileID: 769384427}
   - component: {fileID: 769384429}
   - component: {fileID: 769384428}
+  - component: {fileID: 769384430}
   m_Layer: 0
   m_Name: Flat_Stone_02
   m_TagString: Untagged
@@ -5133,6 +5488,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 769384426}
   m_Mesh: {fileID: 4300000, guid: 3152dcf74b15945428dd2f92746fb8d4, type: 3}
+--- !u!64 &769384430
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769384426}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 3152dcf74b15945428dd2f92746fb8d4, type: 3}
 --- !u!1 &792763228
 GameObject:
   m_ObjectHideFlags: 0
@@ -5145,6 +5514,7 @@ GameObject:
   - component: {fileID: 792763229}
   - component: {fileID: 792763231}
   - component: {fileID: 792763230}
+  - component: {fileID: 792763232}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -5220,6 +5590,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 792763228}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &792763232
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792763228}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.0013275295, z: 0.0004467964}
 --- !u!1 &808399706
 GameObject:
   m_ObjectHideFlags: 0
@@ -5329,6 +5712,7 @@ GameObject:
   - component: {fileID: 808455654}
   - component: {fileID: 808455656}
   - component: {fileID: 808455655}
+  - component: {fileID: 808455657}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -5404,6 +5788,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 808455653}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &808455657
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808455653}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.0013275295, z: 0.0004458427}
 --- !u!1 &826833811
 GameObject:
   m_ObjectHideFlags: 0
@@ -5451,6 +5848,7 @@ GameObject:
   - component: {fileID: 833673550}
   - component: {fileID: 833673552}
   - component: {fileID: 833673551}
+  - component: {fileID: 833673553}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -5526,6 +5924,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 833673549}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &833673553
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833673549}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.0013275295, z: 0.0004458427}
 --- !u!1 &846807872
 GameObject:
   m_ObjectHideFlags: 0
@@ -5538,6 +5949,7 @@ GameObject:
   - component: {fileID: 846807873}
   - component: {fileID: 846807875}
   - component: {fileID: 846807874}
+  - component: {fileID: 846807876}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -5613,6 +6025,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 846807872}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &846807876
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 846807872}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011096, y: 0.0013275295, z: 0.0004458427}
 --- !u!1 &850692663
 GameObject:
   m_ObjectHideFlags: 0
@@ -5625,6 +6050,7 @@ GameObject:
   - component: {fileID: 850692664}
   - component: {fileID: 850692666}
   - component: {fileID: 850692665}
+  - component: {fileID: 850692667}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -5700,6 +6126,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 850692663}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &850692667
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850692663}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011067389, y: 0.0013275295, z: 0.0004458427}
 --- !u!1 &858204747
 GameObject:
   m_ObjectHideFlags: 0
@@ -5799,6 +6238,7 @@ GameObject:
   - component: {fileID: 860944879}
   - component: {fileID: 860944881}
   - component: {fileID: 860944880}
+  - component: {fileID: 860944882}
   m_Layer: 0
   m_Name: Stone_Pavement
   m_TagString: Untagged
@@ -5874,6 +6314,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 860944878}
   m_Mesh: {fileID: 4300000, guid: 11bdbaa435e47d2499128e5fa2d0a7c3, type: 3}
+--- !u!64 &860944882
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860944878}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 11bdbaa435e47d2499128e5fa2d0a7c3, type: 3}
 --- !u!1 &875648903
 GameObject:
   m_ObjectHideFlags: 0
@@ -5886,6 +6340,7 @@ GameObject:
   - component: {fileID: 875648904}
   - component: {fileID: 875648906}
   - component: {fileID: 875648905}
+  - component: {fileID: 875648907}
   m_Layer: 0
   m_Name: Stone_Pavement_03
   m_TagString: Untagged
@@ -5960,6 +6415,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 875648903}
+  m_Mesh: {fileID: 4300000, guid: 3637112c3b5559e4fa026bb504c80f9c, type: 3}
+--- !u!64 &875648907
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875648903}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 3637112c3b5559e4fa026bb504c80f9c, type: 3}
 --- !u!1 &920921510
 GameObject:
@@ -6181,6 +6650,7 @@ GameObject:
   - component: {fileID: 923401085}
   - component: {fileID: 923401087}
   - component: {fileID: 923401086}
+  - component: {fileID: 923401088}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -6256,6 +6726,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 923401084}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &923401088
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 923401084}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011067389, y: 0.001327768, z: 0.0004458427}
 --- !u!1 &940924015
 GameObject:
   m_ObjectHideFlags: 0
@@ -6268,6 +6751,7 @@ GameObject:
   - component: {fileID: 940924016}
   - component: {fileID: 940924018}
   - component: {fileID: 940924017}
+  - component: {fileID: 940924019}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -6343,6 +6827,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 940924015}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &940924019
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940924015}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011067389, y: 0.0013275295, z: 0.0004458427}
 --- !u!1 &968051121
 GameObject:
   m_ObjectHideFlags: 0
@@ -6355,6 +6852,7 @@ GameObject:
   - component: {fileID: 968051122}
   - component: {fileID: 968051124}
   - component: {fileID: 968051123}
+  - component: {fileID: 968051125}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -6430,6 +6928,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 968051121}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &968051125
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 968051121}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.0013275295, z: 0.0004467964}
 --- !u!1 &1010028234
 GameObject:
   m_ObjectHideFlags: 0
@@ -6442,6 +6953,7 @@ GameObject:
   - component: {fileID: 1010028235}
   - component: {fileID: 1010028237}
   - component: {fileID: 1010028236}
+  - component: {fileID: 1010028238}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -6517,6 +7029,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1010028234}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &1010028238
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010028234}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011019706, y: 0.0013275295, z: 0.0004458427}
 --- !u!1 &1021371071
 GameObject:
   m_ObjectHideFlags: 0
@@ -6616,6 +7141,7 @@ GameObject:
   - component: {fileID: 1028426913}
   - component: {fileID: 1028426915}
   - component: {fileID: 1028426914}
+  - component: {fileID: 1028426916}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -6691,6 +7217,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1028426912}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &1028426916
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028426912}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011019706, y: 0.0013275295, z: 0.0004467964}
 --- !u!1 &1053820332
 GameObject:
   m_ObjectHideFlags: 0
@@ -6703,6 +7242,7 @@ GameObject:
   - component: {fileID: 1053820333}
   - component: {fileID: 1053820335}
   - component: {fileID: 1053820334}
+  - component: {fileID: 1053820336}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -6778,6 +7318,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1053820332}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &1053820336
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053820332}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.001327768, z: 0.0004458427}
 --- !u!1 &1058423603
 GameObject:
   m_ObjectHideFlags: 0
@@ -6790,6 +7343,7 @@ GameObject:
   - component: {fileID: 1058423604}
   - component: {fileID: 1058423606}
   - component: {fileID: 1058423605}
+  - component: {fileID: 1058423607}
   m_Layer: 0
   m_Name: Sfinks
   m_TagString: Untagged
@@ -6864,6 +7418,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1058423603}
+  m_Mesh: {fileID: 4300000, guid: de07f08dca086a14e8d29235cdedcdee, type: 3}
+--- !u!64 &1058423607
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058423603}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: de07f08dca086a14e8d29235cdedcdee, type: 3}
 --- !u!1 &1061954227
 GameObject:
@@ -7051,6 +7619,7 @@ GameObject:
   - component: {fileID: 1123108035}
   - component: {fileID: 1123108037}
   - component: {fileID: 1123108036}
+  - component: {fileID: 1123108038}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -7126,6 +7695,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1123108034}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &1123108038
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123108034}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.001327768, z: 0.0004496574}
 --- !u!1 &1126013677
 GameObject:
   m_ObjectHideFlags: 0
@@ -7225,6 +7807,7 @@ GameObject:
   - component: {fileID: 1155598208}
   - component: {fileID: 1155598210}
   - component: {fileID: 1155598209}
+  - component: {fileID: 1155598211}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -7300,6 +7883,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1155598207}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &1155598211
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155598207}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.0013275295, z: 0.0004458427}
 --- !u!1 &1175768205
 GameObject:
   m_ObjectHideFlags: 0
@@ -7466,6 +8062,7 @@ GameObject:
   - component: {fileID: 1215468232}
   - component: {fileID: 1215468234}
   - component: {fileID: 1215468233}
+  - component: {fileID: 1215468235}
   m_Layer: 0
   m_Name: Palm
   m_TagString: Untagged
@@ -7541,6 +8138,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1215468231}
   m_Mesh: {fileID: 4300000, guid: 9d48c224d1b06774cb5386d90b023b62, type: 3}
+--- !u!64 &1215468235
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215468231}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 9d48c224d1b06774cb5386d90b023b62, type: 3}
 --- !u!1 &1242903426
 GameObject:
   m_ObjectHideFlags: 0
@@ -7553,6 +8164,7 @@ GameObject:
   - component: {fileID: 1242903427}
   - component: {fileID: 1242903429}
   - component: {fileID: 1242903428}
+  - component: {fileID: 1242903430}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -7628,6 +8240,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1242903426}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &1242903430
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1242903426}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.0013275295, z: 0.0004458427}
 --- !u!1 &1261665160
 GameObject:
   m_ObjectHideFlags: 0
@@ -7640,6 +8265,7 @@ GameObject:
   - component: {fileID: 1261665161}
   - component: {fileID: 1261665163}
   - component: {fileID: 1261665162}
+  - component: {fileID: 1261665164}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -7715,6 +8341,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1261665160}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &1261665164
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261665160}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.001327768, z: 0.0004496574}
 --- !u!1 &1272608332
 GameObject:
   m_ObjectHideFlags: 0
@@ -7988,6 +8627,7 @@ GameObject:
   - component: {fileID: 1296092932}
   - component: {fileID: 1296092934}
   - component: {fileID: 1296092933}
+  - component: {fileID: 1296092935}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -8063,6 +8703,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1296092931}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &1296092935
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296092931}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.001327768, z: 0.00043821332}
 --- !u!1 &1305008548
 GameObject:
   m_ObjectHideFlags: 0
@@ -8317,6 +8970,7 @@ GameObject:
   - component: {fileID: 1338575364}
   - component: {fileID: 1338575366}
   - component: {fileID: 1338575365}
+  - component: {fileID: 1338575367}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -8392,6 +9046,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1338575363}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &1338575367
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338575363}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.001327768, z: 0.0004458427}
 --- !u!1 &1368650707
 GameObject:
   m_ObjectHideFlags: 0
@@ -8404,6 +9071,7 @@ GameObject:
   - component: {fileID: 1368650708}
   - component: {fileID: 1368650710}
   - component: {fileID: 1368650709}
+  - component: {fileID: 1368650711}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -8479,6 +9147,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1368650707}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &1368650711
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368650707}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011096, y: 0.001327768, z: 0.00043821332}
 --- !u!1 &1387631319
 GameObject:
   m_ObjectHideFlags: 0
@@ -8491,6 +9172,7 @@ GameObject:
   - component: {fileID: 1387631320}
   - component: {fileID: 1387631322}
   - component: {fileID: 1387631321}
+  - component: {fileID: 1387631323}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -8566,6 +9248,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1387631319}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &1387631323
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387631319}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011067389, y: 0.0013275295, z: 0.0004467964}
 --- !u!1 &1433698152
 GameObject:
   m_ObjectHideFlags: 0
@@ -8609,6 +9304,7 @@ GameObject:
   - component: {fileID: 1446054388}
   - component: {fileID: 1446054390}
   - component: {fileID: 1446054389}
+  - component: {fileID: 1446054391}
   m_Layer: 0
   m_Name: Stone_Pavement_07
   m_TagString: Untagged
@@ -8684,6 +9380,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1446054387}
   m_Mesh: {fileID: 4300000, guid: 1251db9fc0cee6b47812b780950793d0, type: 3}
+--- !u!64 &1446054391
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446054387}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 1251db9fc0cee6b47812b780950793d0, type: 3}
 --- !u!1 &1461472431
 GameObject:
   m_ObjectHideFlags: 0
@@ -8696,6 +9406,7 @@ GameObject:
   - component: {fileID: 1461472432}
   - component: {fileID: 1461472434}
   - component: {fileID: 1461472433}
+  - component: {fileID: 1461472435}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -8771,6 +9482,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1461472431}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &1461472435
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461472431}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011067389, y: 0.0013275295, z: 0.0004467964}
 --- !u!1 &1466583254
 GameObject:
   m_ObjectHideFlags: 0
@@ -8783,6 +9507,7 @@ GameObject:
   - component: {fileID: 1466583255}
   - component: {fileID: 1466583257}
   - component: {fileID: 1466583256}
+  - component: {fileID: 1466583258}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -8858,6 +9583,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1466583254}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &1466583258
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466583254}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.001327768, z: 0.0004458427}
 --- !u!1 &1470421468
 GameObject:
   m_ObjectHideFlags: 0
@@ -8957,6 +9695,7 @@ GameObject:
   - component: {fileID: 1481843219}
   - component: {fileID: 1481843221}
   - component: {fileID: 1481843220}
+  - component: {fileID: 1481843222}
   m_Layer: 0
   m_Name: Stone_02
   m_TagString: Untagged
@@ -9032,6 +9771,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1481843218}
   m_Mesh: {fileID: 4300000, guid: 2c027e4ae6298ae4ea1d88d590b3b28a, type: 3}
+--- !u!64 &1481843222
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1481843218}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 2c027e4ae6298ae4ea1d88d590b3b28a, type: 3}
 --- !u!1 &1483638116
 GameObject:
   m_ObjectHideFlags: 0
@@ -9044,6 +9797,7 @@ GameObject:
   - component: {fileID: 1483638117}
   - component: {fileID: 1483638119}
   - component: {fileID: 1483638118}
+  - component: {fileID: 1483638120}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -9119,6 +9873,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1483638116}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &1483638120
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483638116}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011019706, y: 0.001327768, z: 0.0004496574}
 --- !u!1 &1501014490
 GameObject:
   m_ObjectHideFlags: 0
@@ -9131,6 +9898,7 @@ GameObject:
   - component: {fileID: 1501014491}
   - component: {fileID: 1501014493}
   - component: {fileID: 1501014492}
+  - component: {fileID: 1501014494}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -9206,6 +9974,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1501014490}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &1501014494
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1501014490}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.0013275295, z: 0.0004458427}
 --- !u!1 &1517192476
 GameObject:
   m_ObjectHideFlags: 0
@@ -9305,6 +10086,7 @@ GameObject:
   - component: {fileID: 1517479303}
   - component: {fileID: 1517479305}
   - component: {fileID: 1517479304}
+  - component: {fileID: 1517479306}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -9380,6 +10162,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1517479302}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &1517479306
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517479302}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011096, y: 0.001327768, z: 0.0004458427}
 --- !u!1 &1526356710
 GameObject:
   m_ObjectHideFlags: 0
@@ -9392,6 +10187,7 @@ GameObject:
   - component: {fileID: 1526356711}
   - component: {fileID: 1526356713}
   - component: {fileID: 1526356712}
+  - component: {fileID: 1526356714}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -9467,6 +10263,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1526356710}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &1526356714
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526356710}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.0013275295, z: 0.0004458427}
 --- !u!1 &1567388986
 GameObject:
   m_ObjectHideFlags: 0
@@ -9479,6 +10288,7 @@ GameObject:
   - component: {fileID: 1567388987}
   - component: {fileID: 1567388989}
   - component: {fileID: 1567388988}
+  - component: {fileID: 1567388990}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -9554,6 +10364,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1567388986}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &1567388990
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567388986}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.001327768, z: 0.0004458427}
 --- !u!1 &1584499950
 GameObject:
   m_ObjectHideFlags: 0
@@ -9566,6 +10389,7 @@ GameObject:
   - component: {fileID: 1584499951}
   - component: {fileID: 1584499953}
   - component: {fileID: 1584499952}
+  - component: {fileID: 1584499954}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -9641,6 +10465,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1584499950}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &1584499954
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584499950}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.0013275295, z: 0.0004467964}
 --- !u!1 &1609602958
 GameObject:
   m_ObjectHideFlags: 0
@@ -9653,6 +10490,7 @@ GameObject:
   - component: {fileID: 1609602959}
   - component: {fileID: 1609602961}
   - component: {fileID: 1609602960}
+  - component: {fileID: 1609602962}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -9728,6 +10566,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1609602958}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &1609602962
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609602958}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.0013275295, z: 0.0004467964}
 --- !u!1 &1628775723
 GameObject:
   m_ObjectHideFlags: 0
@@ -9740,6 +10591,7 @@ GameObject:
   - component: {fileID: 1628775724}
   - component: {fileID: 1628775726}
   - component: {fileID: 1628775725}
+  - component: {fileID: 1628775727}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -9815,6 +10667,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1628775723}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &1628775727
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628775723}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.001327768, z: 0.00043821332}
 --- !u!1 &1655909792
 GameObject:
   m_ObjectHideFlags: 0
@@ -9827,6 +10692,7 @@ GameObject:
   - component: {fileID: 1655909793}
   - component: {fileID: 1655909795}
   - component: {fileID: 1655909794}
+  - component: {fileID: 1655909796}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -9902,6 +10768,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1655909792}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &1655909796
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655909792}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011019706, y: 0.0013275295, z: 0.0004458427}
 --- !u!1 &1666666256
 GameObject:
   m_ObjectHideFlags: 0
@@ -10001,6 +10880,7 @@ GameObject:
   - component: {fileID: 1681127367}
   - component: {fileID: 1681127369}
   - component: {fileID: 1681127368}
+  - component: {fileID: 1681127370}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -10076,6 +10956,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1681127366}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &1681127370
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681127366}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011067389, y: 0.001327768, z: 0.0004496574}
 --- !u!1 &1731762538
 GameObject:
   m_ObjectHideFlags: 0
@@ -10261,6 +11154,7 @@ GameObject:
   - component: {fileID: 1768283953}
   - component: {fileID: 1768283955}
   - component: {fileID: 1768283954}
+  - component: {fileID: 1768283956}
   m_Layer: 0
   m_Name: Block
   m_TagString: Untagged
@@ -10336,6 +11230,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1768283952}
   m_Mesh: {fileID: 4300000, guid: e1dc6eb25ecd38d44933e1fe73eed986, type: 3}
+--- !u!64 &1768283956
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768283952}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: e1dc6eb25ecd38d44933e1fe73eed986, type: 3}
 --- !u!1 &1773720846
 GameObject:
   m_ObjectHideFlags: 0
@@ -10348,6 +11256,7 @@ GameObject:
   - component: {fileID: 1773720847}
   - component: {fileID: 1773720849}
   - component: {fileID: 1773720848}
+  - component: {fileID: 1773720850}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -10423,6 +11332,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1773720846}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &1773720850
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1773720846}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011096, y: 0.0013275295, z: 0.0004458427}
 --- !u!1 &1827454622
 GameObject:
   m_ObjectHideFlags: 0
@@ -10522,6 +11444,7 @@ GameObject:
   - component: {fileID: 1830102034}
   - component: {fileID: 1830102036}
   - component: {fileID: 1830102035}
+  - component: {fileID: 1830102037}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -10597,6 +11520,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1830102033}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &1830102037
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830102033}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.0013275295, z: 0.0004458427}
 --- !u!1 &1862018694
 GameObject:
   m_ObjectHideFlags: 0
@@ -10696,6 +11632,7 @@ GameObject:
   - component: {fileID: 1862824220}
   - component: {fileID: 1862824222}
   - component: {fileID: 1862824221}
+  - component: {fileID: 1862824223}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -10771,6 +11708,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1862824219}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &1862824223
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862824219}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.0013275295, z: 0.0004467964}
 --- !u!1 &1902950822
 GameObject:
   m_ObjectHideFlags: 0
@@ -10870,6 +11820,7 @@ GameObject:
   - component: {fileID: 1904909564}
   - component: {fileID: 1904909566}
   - component: {fileID: 1904909565}
+  - component: {fileID: 1904909567}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -10945,6 +11896,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1904909563}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &1904909567
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904909563}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011019706, y: 0.001327768, z: 0.0004458427}
 --- !u!1 &1926366740
 GameObject:
   m_ObjectHideFlags: 0
@@ -10957,6 +11921,7 @@ GameObject:
   - component: {fileID: 1926366741}
   - component: {fileID: 1926366743}
   - component: {fileID: 1926366742}
+  - component: {fileID: 1926366744}
   m_Layer: 0
   m_Name: Stone_Pavement_02
   m_TagString: Untagged
@@ -11032,6 +11997,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1926366740}
   m_Mesh: {fileID: 4300000, guid: e855f7941508ab348be8256afdec6fd0, type: 3}
+--- !u!64 &1926366744
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926366740}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: e855f7941508ab348be8256afdec6fd0, type: 3}
 --- !u!1 &1945838899
 GameObject:
   m_ObjectHideFlags: 0
@@ -11080,6 +12059,7 @@ GameObject:
   - component: {fileID: 1955278060}
   - component: {fileID: 1955278062}
   - component: {fileID: 1955278061}
+  - component: {fileID: 1955278063}
   m_Layer: 0
   m_Name: Stone_Pavement_06
   m_TagString: Untagged
@@ -11154,6 +12134,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1955278059}
+  m_Mesh: {fileID: 4300000, guid: ad24747331f6cd44e8bda860b89c5294, type: 3}
+--- !u!64 &1955278063
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955278059}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: ad24747331f6cd44e8bda860b89c5294, type: 3}
 --- !u!1 &1955452038
 GameObject:
@@ -11254,6 +12248,7 @@ GameObject:
   - component: {fileID: 1977652778}
   - component: {fileID: 1977652780}
   - component: {fileID: 1977652779}
+  - component: {fileID: 1977652781}
   m_Layer: 0
   m_Name: Flat_stone_06
   m_TagString: Untagged
@@ -11329,6 +12324,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1977652777}
   m_Mesh: {fileID: 4300000, guid: dc685a24785e2e648bfaf0b0065c645f, type: 3}
+--- !u!64 &1977652781
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977652777}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: dc685a24785e2e648bfaf0b0065c645f, type: 3}
 --- !u!1 &1984431967
 GameObject:
   m_ObjectHideFlags: 0
@@ -11341,6 +12350,7 @@ GameObject:
   - component: {fileID: 1984431968}
   - component: {fileID: 1984431970}
   - component: {fileID: 1984431969}
+  - component: {fileID: 1984431971}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -11416,6 +12426,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1984431967}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &1984431971
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984431967}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.0013275295, z: 0.0004458427}
 --- !u!1 &2015642497
 GameObject:
   m_ObjectHideFlags: 0
@@ -11428,6 +12451,7 @@ GameObject:
   - component: {fileID: 2015642498}
   - component: {fileID: 2015642500}
   - component: {fileID: 2015642499}
+  - component: {fileID: 2015642501}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -11503,6 +12527,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2015642497}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &2015642501
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015642497}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.0013275295, z: 0.0004458427}
 --- !u!1 &2025974583
 GameObject:
   m_ObjectHideFlags: 0
@@ -11602,6 +12639,7 @@ GameObject:
   - component: {fileID: 2026453466}
   - component: {fileID: 2026453468}
   - component: {fileID: 2026453467}
+  - component: {fileID: 2026453469}
   m_Layer: 0
   m_Name: Grass
   m_TagString: Untagged
@@ -11677,6 +12715,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2026453465}
   m_Mesh: {fileID: 4300000, guid: 4ea6d05e09135d74cbb5a0133d6333a7, type: 3}
+--- !u!64 &2026453469
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2026453465}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 4ea6d05e09135d74cbb5a0133d6333a7, type: 3}
 --- !u!1 &2042757392
 GameObject:
   m_ObjectHideFlags: 0
@@ -11720,6 +12772,7 @@ GameObject:
   - component: {fileID: 2051234995}
   - component: {fileID: 2051234997}
   - component: {fileID: 2051234996}
+  - component: {fileID: 2051234998}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -11795,6 +12848,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2051234994}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &2051234998
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051234994}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.0013275295, z: 0.0004458427}
 --- !u!1 &2056945532
 GameObject:
   m_ObjectHideFlags: 0
@@ -11807,6 +12873,7 @@ GameObject:
   - component: {fileID: 2056945533}
   - component: {fileID: 2056945535}
   - component: {fileID: 2056945534}
+  - component: {fileID: 2056945536}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -11882,6 +12949,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2056945532}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &2056945536
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056945532}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.001327768, z: 0.0004458427}
 --- !u!1 &2065203312
 GameObject:
   m_ObjectHideFlags: 0
@@ -11894,6 +12974,7 @@ GameObject:
   - component: {fileID: 2065203313}
   - component: {fileID: 2065203315}
   - component: {fileID: 2065203314}
+  - component: {fileID: 2065203316}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -11969,6 +13050,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2065203312}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &2065203316
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065203312}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011067389, y: 0.0013275295, z: 0.0004458427}
 --- !u!1 &2069633070
 GameObject:
   m_ObjectHideFlags: 0
@@ -11981,6 +13075,7 @@ GameObject:
   - component: {fileID: 2069633071}
   - component: {fileID: 2069633073}
   - component: {fileID: 2069633072}
+  - component: {fileID: 2069633074}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -12056,6 +13151,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2069633070}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &2069633074
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2069633070}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.0013275295, z: 0.0004458427}
 --- !u!1 &2073276594
 GameObject:
   m_ObjectHideFlags: 0
@@ -12242,6 +13350,7 @@ GameObject:
   - component: {fileID: 2091759468}
   - component: {fileID: 2091759470}
   - component: {fileID: 2091759469}
+  - component: {fileID: 2091759471}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -12317,6 +13426,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2091759467}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &2091759471
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2091759467}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.0013275295, z: 0.0004467964}
 --- !u!1 &2092899532
 GameObject:
   m_ObjectHideFlags: 0
@@ -12580,6 +13702,7 @@ GameObject:
   - component: {fileID: 2124593634}
   - component: {fileID: 2124593636}
   - component: {fileID: 2124593635}
+  - component: {fileID: 2124593637}
   m_Layer: 0
   m_Name: Landscape
   m_TagString: Untagged
@@ -12655,6 +13778,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2124593633}
   m_Mesh: {fileID: 4300000, guid: aade1034c8b3f14418d0a5b20b41b2bb, type: 3}
+--- !u!65 &2124593637
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124593633}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.569048, y: 0.27427274, z: 11.56905}
+  m_Center: {x: -0.0011057853, y: 0.0013275295, z: 0.0004458427}
 --- !u!1 &2131861968
 GameObject:
   m_ObjectHideFlags: 0
