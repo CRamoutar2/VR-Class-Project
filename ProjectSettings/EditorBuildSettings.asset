@@ -17,6 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Desert.unity
     guid: a9bcfc9f5daf3764bb15fae702fe3614
+  - enabled: 1
+    path: Assets/Scenes/Village.unity
+    guid: ad2c3f7356068439faea489dc82202a9
+  - enabled: 1
+    path: Assets/Scenes/Forest.unity
+    guid: 164fc101ab8f1584d9f3f9772734e457
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ed72be55522c8448bae8b0d66fa21adf,
       type: 2}
