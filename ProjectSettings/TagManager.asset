@@ -4,7 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Destructable
+  - Cacti
+  - Wheat
+  - Apple
+  - Scarab
   layers:
   - Default
   - TransparentFX
