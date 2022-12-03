@@ -8,10 +8,10 @@ public class InGameMenuControls : MonoBehaviour
 {
     public GameObject Ui;
     void Update(){
-        if(Input.GetKeyDown(KeyCode.G) || Input.GetKeyDown("joystick button 0")){
+        if(/*Input.GetKeyDown(KeyCode.G) || */Input.GetKeyDown("joystick button 0") && !Ui.activeSelf){
             Ui.SetActive(true);
         }
-        else if (Input.GetKeyDown(KeyCode.M) || Input.GetKeyDown("joystick button 0")){
+        else if (/*Input.GetKeyDown(KeyCode.G) || */Input.GetKeyDown("joystick button 0") && Ui.activeSelf){
             Ui.SetActive(false);
         }
     }
