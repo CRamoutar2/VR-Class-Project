@@ -46,7 +46,7 @@
 \usepackage{mathptmx}                  % use matching math font
 \usepackage{times}                     % we use Times as the main font
 \renewcommand*\ttdefault{txtt}         % a nicer typewriter font
-\usepackage{cite}    
+\usepackage{cite}
 \usepackage{graphicx}   
            % needed to automatically sort the references
 %% We encourage the use of mathptmx for consistent usage of times font
@@ -63,7 +63,7 @@
 \vgtccategory{Research}
 
 %% allow for this line if you want the electronic option to work properly
-\vgtcinsertpkg
+
 
 %% In preprint mode you may define your own headline.
 %\preprinttext{To appear in an IEEE VGTC sponsored conference.}
@@ -72,44 +72,21 @@
 
 \title{Group 5 Project Proposal}
 
-%% This is how authors are specified in the conference style
-
-%% Author and Affiliation (single author).
-%%\author{Roy G. Biv\thanks{e-mail: roy.g.biv@aol.com}}
-%%\affiliation{\scriptsize Allied Widgets Research}
-
-%% Author and Affiliation (multiple authors with single affiliations).
-%%\author{Roy G. Biv\thanks{e-mail: roy.g.biv@aol.com} %
-%%\and Ed Grimley\thanks{e-mail:ed.grimley@aol.com} %
-%%\and Martha Stewart\thanks{e-mail:martha.stewart@marthastewart.com}}
-%%\affiliation{\scriptsize Martha Stewart Enterprises \\ Microsoft Research}
 
 %% Author and Affiliation (multiple authors with multiple affiliations)
-\makeatletter
-\newcommand{\linebreakand}{%
-  \end{@IEEEauthorhalign}
-  \hfill\mbox{}\par
-  \mbox{}\hfill\begin{@IEEEauthorhalign}
-}
-\makeatother
 
-\author{\IEEEauthorblockN{1\textsuperscript{st} Chethram Ramoutar}
-  \IEEEauthorblockA{\textit{Hunter College} \\
-  chethram.ramoutar79@myhunter.cuny.edu}
-  \and
-  \IEEEauthorblockN{2\textsuperscript{nd} Mark Blinder}
-  \IEEEauthorblockA{\textit{Hunter College} \\
-  mark.blinder54@myhunter.cuny.edu}\\
-  \and
-  \IEEEauthorblockN{3\textsuperscript{rd} Omar Hegazy}
-  \IEEEauthorblockA{\textit{Hunter College} \\
-  omar.hegazy00@myhunter.cuny.edu}
-  \and
-  \IEEEauthorblockN{4\textsuperscript{th} Melanie Vasquez}
-  \IEEEauthorblockA{\textit{Hunter College} \\
-    melanie.vasquez61@myhunter.cuny.edu}
-}
-
+\author{Chethram Ramoutar\\ %
+    \parbox{1.4in}{\scriptsize  \centering\emph{Hunter College}}\\
+    \scriptsize{chethram.ramoutar79@myhunter.cuny.edu}
+\and Melanie Vasquez\\ %
+    \parbox{1.4in}{\scriptsize \centering\emph{Hunter College}}\\
+    \scriptsize{melanie.vasquez61@myhunter.cuny.edu}
+\and Omar Hegazy\\ %
+    \parbox{1.4in}{\scriptsize  \centering\emph{Hunter College}}\\
+    \scriptsize{omar.hegazy00@myhunter.cuny.edu}\\
+\and Mark Blinder\\ %
+    \parbox{1.4in}{\scriptsize  \centering\emph{Hunter College}}\\
+    \scriptsize{mark.blinder54@myhunter.cuny.edu}}
 %% A teaser figure can be included as follows, but is not recommended since
 %% the space is now taken up by a full width abstract.
 %\teaser{
@@ -145,35 +122,36 @@ like they are apart of the experience.%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
-
+\maketitle
 %% The ``\maketitle'' command must be the first command after the
 %% ``\begin{document}'' command. It prepares and prints the title block.
 
 %% the only exception to this rule is the \firstsection command
 \firstsection{Introduction}
 
-\maketitle
 
 %% \section{Introduction} %for journal use above \firstsection{..} instead
-The game centers around a lone space traveler who is on a quest to collect different items to build an essential part. As they travel through
+The game centers around a lone space traveler who is on a quest to gather different supplies for a stranger on their ship. As they travel through
 different dimensions, the user will experience different terrains, forms of life, and interesting settings. This game will be broken up into four key
 areas of travel being: A desert, a forest, a village, and a farm. Each area's focus will allow us to give the user multiple cohesive experiences without
 the risk of throwing them off from the main story. This will also allow the developers to test different aspects of each environment to present the idea that
 a user truly traveled a different dimension.
 
-Along with the environment, we seek to have non-playable character or NPC interaction that will make each space more lively and natural to the user. However, the main
+Along with the environment, we seek to have non-playable character or NPC interaction that will make each space more lively and natural to the user. The NPC will be used as our stranger on the ship who will tell us what items
+we must use and how many we should collect. This NPC will be animated but we will look into having other NPCs within different sections of the environmet. However, the main
 functionality and interactivity will be with the quests assigned in each area. The user will be able to collect items that relate to their respective quest and explore a majority
 of their environment to seek these out. Although it is simple, it can allow the user to immerse themselves without streinuous tasks breaking their immersion. The quests will be entirely focused on
 hand input allowing a user to pick up, examine, and collect objects with ease. The user will also be able to look around and navigate the each environment as naturally as possible.
 
 \section{Related Work}
-Games that inspired the creation of this project are "The Witness" and "The Forest". "The Witness" uses environment and puzzle interaction in a seemless way. Integration of this in VR has translated well
-since the game was first published. By looking at how "The Witness" makes the environment the main aspect, it is something we want to take away from. Despite most if not all of the environment being in low poly 3D graphics, the
+Games that inspired the creation of this project are "The Witness"\cite{rad_2016} and "The Forest"\cite{hafer_2018,horti_2018}. "The Witness" uses environment and puzzle interaction in a seemless way and has been praised for having "masterful design"\cite{rad_2016}.
+Integration of this in VR has translated well since the game was first published. By looking at how "The Witness" makes the environment the main aspect, it is something we want to take away from. Despite most if not all of the environment being in low poly 3D graphics, the
 use of ray tracing, saturated colors, and a lack of clutter makes the environment feel alive and natural. The game also uses a first person perspective which is something we want to take away from. The first person perspective allows for a more
 personal and intimate experience with the puzzles that is not often seen in VR games. There is more naturality with this view then with third person perspective.
 
 "The Forest" also uses the previous aspects but in a more realistic and intense setting. The main aspects to take away from is the environmental interaction. Although "The Witness" achieves the appropriate aesthetic while integrating puzzles, "The Forest"
-is more realistic with its gameplay. Having the ability to interact with tools such as axes, sticks, and even a bow and arrow brings a lot into the immersion of the game. Movement becomes key in the gameplay which is translated through the well thought out head and hand tracking
+is more realistic with its gameplay. As stated by Samuel Horti: "Your inventory is just all your items laid on a mat in front of you, and the crafting menu is a book you pull out of your backpack. But being surrounded by the world on all sides in VR makes it more believable"\cite{horti_2018}.
+Noting this and the ability to interact with tools such as axes, sticks, and even a bow and arrow brings a lot into the immersion of the game. Movement becomes key in the gameplay which is translated through the well thought out head and hand tracking
 that makes every swing or flick feel meaningful in the environment the player is in. Since it is also a survival game, first person perspective brings out the sense of urgency
 with every interaction. The game also contains well thought out NPC interactions that are extremely heart racing in a VR environment. By seeing how "The Forest" uses interactivity in its gameplay we want to try and achieve that within our game through our collection
 quests. However, we want to keep the calmness and aesthic found in "The Witness" to make the game more enjoyable.
@@ -214,19 +192,33 @@ The second round of tests came in the form of texturing. With each scene, specif
 with the texture itself. As a result, we tested on different machines first to make sure it was not one user then Melanie proceeded to fix the textures by changing the type of texture applied to the assets. This was done by changing the type of texture from "Standard" to "Unlit" which allowed the textures to load properly. As well as making
 sure the textures were not force updated in order to comply with the current version of Unity used for the project.
 
-\begin{figure}[h!]
-  \centering
-  \includegraphics[width= \linewidth]{Figures/SpawnerBug.png}
-  \caption{Spawn Error}
-  \label{fig:spawnbug}
-\end{figure}
 
 The final tests were done on two main components that bring the scenes together along with their quests. The first focus was on the main teleportation hub and user interfeace. The main hub was tested to make sure that the teleportation pads were working properly and that the user was able to teleport to each scene. This was done through testing handled by Chethram where
 a user stood on a pad to be sent to a scene through a script. However, the teleportation pads were not working properly and the user was not being sent to the correct scene at certain times. This was fixed by changing the script to a button above the pads. This allowed the user to press the button during the rare chance the pads do not work when a user is standing on it.
 
+\begin{figure}[ht!]
+  \centering
+  \includegraphics[width= 0.8\linewidth]{Figures/SpawnerBug.png}
+  \caption{Spawn Error}
+  \label{fig:spawnbug}
+\end{figure}
 
 The second focus was on the quests themselves. The quests were tested to make sure that the user was able to collect the items and that the items were being spawned properly. Specifically, we wanted to make sure that the scripts ran for item randomization were efficient enough to make the fetching aspect of the quests interesting for the user. Omar oversaw the creation of the script and tested
-different spawn rates as well as items to see how that would affect the spawner in each environment. An issue shown in Fig occurred where the spawner would spawn a large number of the items rather than a set number of items within an environment.
+different spawn rates as well as items to see how that would affect the spawner in each environment. An issue shown in Fig.\ref{fig:spawnbug} occurred where the spawner would spawn a large number of the items rather than a set number of items within an environment. This could cause large lag spikes when a user spawned in and would often make the game unplayable as time goes on. This was fixed by tweaking
+the script in order to not randomize the number of items but rather set the locations manually so that the randomization did not affect the items themselves. This acted as a temporary solution to the problem before fully integrating randomization to the items themselves.
+
+\subsection*{Results}
+
+After taking the time to go through these bugs there was more cohesive gameplay that occured. The items were in the correct locations and the fetching aspects showed no major bugs that affected the overrall experience of the game. Along with that, the ability to have all the environments blend into each other in the form of a space quest logistically supported the use of multiple environments without
+throwing off users whenever they tested the game. The script used on the items also showed no problems such as the spawning error and the game was able to only show a select number of items rather than chunks of the same item in incorrect areas. This helped with the exploration aspect as it allowed users to move beyond the spawn point without problem.
+
+\section{Conclusion}
+\subsection*{Future Work}
+After the completion of the project, there are still a few things that can be done to improve the overall experience of the game. The first is the addition of more NPC interactions outside of the single stranger within the main hub. So far, the NPC interactions have been limited to the stranger in the main hub without others in the different environments. This can make the feeling of the game more desolate than lively 
+which can be a problem when trying to build immersion within a space. Since the game is not meant to display this sense of loneliness, there can be an inclusion of wildlife that roam around or more individuals that can be communicated with in each environment for future iterations. 
+
+Lastly, we aim to expnad on the randomization and possibly integrate it with small side quests that are outside the main fetching quest. This can help build quests that allow for different types of user input that is not solely stuck on head and hand tracking. This can be done through the use of quests focused on things like eye tracking or intense motions like throwing. That way there is more interaction involved within
+the game that can be built upong with the ever growing technology related to specific user input. It will also make each environmet more physically interesting rather than visually interesting.
 
 %% if specified like this the section will be committed in review mode
 \acknowledgments{
@@ -234,10 +226,10 @@ different spawn rates as well as items to see how that would affect the spawner 
   a grant from XYZ.}
 
 %\bibliographystyle{abbrv}
-\bibliographystyle{abbrv-doi}
+\bibliographystyle{ieeetr}
 %\bibliographystyle{abbrv-doi-narrow}
 %\bibliographystyle{abbrv-doi-hyperref}
 %\bibliographystyle{abbrv-doi-hyperref-narrow}
 
-% \bibliography{template}
+\bibliography{template}
 \end{document}
