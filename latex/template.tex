@@ -1,5 +1,3 @@
-
-
 \documentclass{vgtc}                          % final (conference style)
 %\documentclass[review]{vgtc}                 % review
 %\documentclass[widereview]{vgtc}             % wide-spaced review
@@ -48,7 +46,9 @@
 \usepackage{mathptmx}                  % use matching math font
 \usepackage{times}                     % we use Times as the main font
 \renewcommand*\ttdefault{txtt}         % a nicer typewriter font
-\usepackage{cite}                      % needed to automatically sort the references
+\usepackage{cite}    
+\usepackage{graphicx}   
+           % needed to automatically sort the references
 %% We encourage the use of mathptmx for consistent usage of times font
 %% throughout the proceedings. However, if you encounter conflicts
 %% with other math-related packages, you may want to disable it.
@@ -168,8 +168,8 @@ hand input allowing a user to pick up, examine, and collect objects with ease. T
 
 \section{Related Work}
 Games that inspired the creation of this project are "The Witness" and "The Forest". "The Witness" uses environment and puzzle interaction in a seemless way. Integration of this in VR has translated well
-since the game was first published. By looking at how "The Witness" makes the environment the main aspect, it is something we want to take away from. Despite most if not all of the environment being in low poly 3D graphics, the 
-use of ray tracing, saturated colors, and a lack of clutter makes the environment feel alive and natural. The game also uses a first person perspective which is something we want to take away from. The first person perspective allows for a more 
+since the game was first published. By looking at how "The Witness" makes the environment the main aspect, it is something we want to take away from. Despite most if not all of the environment being in low poly 3D graphics, the
+use of ray tracing, saturated colors, and a lack of clutter makes the environment feel alive and natural. The game also uses a first person perspective which is something we want to take away from. The first person perspective allows for a more
 personal and intimate experience with the puzzles that is not often seen in VR games. There is more naturality with this view then with third person perspective.
 
 "The Forest" also uses the previous aspects but in a more realistic and intense setting. The main aspects to take away from is the environmental interaction. Although "The Witness" achieves the appropriate aesthetic while integrating puzzles, "The Forest"
@@ -201,7 +201,32 @@ or visual feedback. This can help build upon each scene once we get into NPC int
 Outside of the interactivity, for immersion we will use assets and different light and rendering techniques to allow a user to be in a space that is not dull. Animations will also be used because it can give the illusion of movement which can add life to each scene.
 These animations may be applied to the collected objects, the NPCs, or even the environment itself but overall the main focus is NPC animations. This can be done through Mixamo and scripts that trigger certain movements within a player model.
 
+\section{User Evaluation and Results}
+In order to evaluate and test the VR application, there were a series of tests done that allowed us to see the functionality of the application among the different scenes and interactions. These tests focused on bug fixes, motion, and coordination as well as environment
+layout in order for the scenes to translate well between one another. The tests were done not only on the Oculus Quest 1 and 2 but also with mouse and keyboard so that debugging can go smoother without the use of a headset at all times. The final stages of user interaction
+were done with the Oculus Quests.
 
+The first tests were done with the base scenes in order to check that the environment loaded properly. The main issue that occurred happened with colliders. Users, in this case team members, tested to make sure that there was no clipping between any of the objects present in each scene and the camera that
+acted as our character. Along with this, we also tested movement so that a user is not dragging any assets because in some cases the colliders caused objects to be flung into different directions instead of staying in one place or being held in the user's hand. This was fixed by editing the type of colliders
+applied to the environment and the user so that there is no clipping and there is free movement without any of the disorienting bugs.
+
+The second round of tests came in the form of texturing. With each scene, specifically the desert scene, there were texture issues due to the type of assets used. The assets used were from the Unity Asset Store and were not optimized for VR. This caused the textures to load in pink indicating that there is an error
+with the texture itself. As a result, we tested on different machines first to make sure it was not one user then Melanie proceeded to fix the textures by changing the type of texture applied to the assets. This was done by changing the type of texture from "Standard" to "Unlit" which allowed the textures to load properly. As well as making
+sure the textures were not force updated in order to comply with the current version of Unity used for the project.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width= \linewidth]{Figures/SpawnerBug.png}
+  \caption{Spawn Error}
+  \label{fig:spawnbug}
+\end{figure}
+
+The final tests were done on two main components that bring the scenes together along with their quests. The first focus was on the main teleportation hub and user interfeace. The main hub was tested to make sure that the teleportation pads were working properly and that the user was able to teleport to each scene. This was done through testing handled by Chethram where
+a user stood on a pad to be sent to a scene through a script. However, the teleportation pads were not working properly and the user was not being sent to the correct scene at certain times. This was fixed by changing the script to a button above the pads. This allowed the user to press the button during the rare chance the pads do not work when a user is standing on it.
+
+
+The second focus was on the quests themselves. The quests were tested to make sure that the user was able to collect the items and that the items were being spawned properly. Specifically, we wanted to make sure that the scripts ran for item randomization were efficient enough to make the fetching aspect of the quests interesting for the user. Omar oversaw the creation of the script and tested
+different spawn rates as well as items to see how that would affect the spawner in each environment. An issue shown in Fig occurred where the spawner would spawn a large number of the items rather than a set number of items within an environment.
 
 %% if specified like this the section will be committed in review mode
 \acknowledgments{
@@ -214,5 +239,5 @@ These animations may be applied to the collected objects, the NPCs, or even the 
 %\bibliographystyle{abbrv-doi-hyperref}
 %\bibliographystyle{abbrv-doi-hyperref-narrow}
 
-\bibliography{template}
+% \bibliography{template}
 \end{document}

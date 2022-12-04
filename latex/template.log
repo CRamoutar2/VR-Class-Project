@@ -1,20 +1,20 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.6)  28 NOV 2022 21:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.20)  3 DEC 2022 13:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/tidyl/Documents/vgtc_conference_latex/template.tex
-(c:/Users/tidyl/Documents/vgtc_conference_latex/template.tex
+**c:/Users/melanievasquez/Documents/latex/template.tex
+(c:/Users/melanievasquez/Documents/latex/template.tex
 LaTeX2e <2022-06-01> patch level 5
-L3 programming layer <2022-07-04> (vgtc.cls
+L3 programming layer <2022-08-30> (./vgtc.cls
 Document Class: vgtc 2006/05/21 IEEE VGTC
-(C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
+(c:/texlive/2022/texmf-dist/tex/generic/iftex/ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
- (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+ (c:/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
-)) (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+)) (c:/texlive/2022/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
-(C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+(c:/texlive/2022/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
@@ -36,27 +36,27 @@ File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \teaserspace=\skip51
 \abstxtspace=\skip52
 \vgtc@copyrightlength=\skip53
-) (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+ (c:/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
-) (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+ (c:/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+) (c:/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+ (c:/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen141
 \Gin@req@width=\dimen142
-) (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2022/06/23 v3.0f Micro-typographical refinements (RS)
- (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+ (c:/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count193
 )
@@ -70,18 +70,18 @@ LaTeX Info: Redefining \textls on input line 1234.
 \MT@outer@kern=\dimen143
 LaTeX Info: Redefining \textmicrotypecontext on input line 1858.
 \MT@listname@count=\count195
- (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdftex.def
+ (c:/texlive/2022/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2022/06/23 v3.0f Definitions specific to pdftex (RS)
 LaTeX Info: Redefining \lsstyle on input line 900.
 LaTeX Info: Redefining \lslig on input line 900.
 \MT@outer@space=\skip54
 )
 Package microtype Info: Loading configuration file microtype.cfg.
- (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
+ (c:/texlive/2022/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2022/06/23 v3.0f microtype main configuration file (RS)
-)) (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+)) (c:/texlive/2022/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-) (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\mathptmx.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/psnfss/mathptmx.sty
 Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -116,43 +116,43 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
 LaTeX Info: Redefining \hbar on input line 50.
-) (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\times.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
-) (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/cite\cite.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
-) (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2022-06-20 v7.00s Hypertext links for LaTeX
- (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+ (c:/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-) (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+) (c:/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+ (c:/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
-Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-) (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+) (c:/texlive/2022/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+) (c:/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+) (c:/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-) (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
- (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+ (c:/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+) (c:/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+ (c:/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count196
@@ -160,17 +160,17 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 \@linkdim=\dimen144
 \Hy@linkcounter=\count197
 \Hy@pagecounter=\count198
- (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+ (c:/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2022-06-20 v7.00s Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (c:/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-) (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+) (c:/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count199
- (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+ (c:/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2022-06-20 v7.00s Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -183,15 +183,15 @@ Package hyperref Info: Backreferencing OFF on input line 4182.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4408.
 \c@Hy@tempcnt=\count266
- (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+ (c:/texlive/2022/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4746.
 \XeTeXLinkMargin=\dimen145
- (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+ (c:/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+ (c:/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count267
@@ -204,7 +204,7 @@ Package hyperref Info: backreferencing OFF on input line 6039.
 Package hyperref Info: Link coloring OFF on input line 6044.
 Package hyperref Info: Link coloring with OCG OFF on input line 6049.
 Package hyperref Info: PDF/A mode OFF on input line 6054.
- (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+ (c:/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -213,17 +213,17 @@ package with kernel methods
 \c@Hfootnote=\count270
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+ (c:/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2022-06-20 v7.00s Hyperref driver for pdfTeX
- (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+ (c:/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
 \Fld@listcount=\count271
 \c@bookmark@seq@number=\count272
- (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+ (c:/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
- (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+ (c:/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
@@ -252,13 +252,13 @@ Package hyperref Info: Option `colorlinks' set `false' on input line 66.
 Package hyperref Info: Option `nesting' set `true' on input line 66.
 Package hyperref Info: Option `linktocpage' set `true' on input line 66.
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 147.
-(C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+(c:/texlive/2022/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-) (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
+) (c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-08-30 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count273
 \l__pdf_internal_box=\box52
-) (template.aux)
+) (./template.aux)
 \openout1 = `template.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 147.
@@ -279,7 +279,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 147.
 LaTeX Font Info:    ... okay on input line 147.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 147.
 LaTeX Font Info:    ... okay on input line 147.
- (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+ (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count274
 \scratchdimen=\dimen148
@@ -292,11 +292,11 @@ LaTeX Font Info:    ... okay on input line 147.
 \MPnumerator=\count278
 \makeMPintoPDFobject=\count279
 \everyMPtoPDFconversion=\toks19
-) (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+ (c:/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 LaTeX Info: Redefining \microtypecontext on input line 147.
 Package microtype Info: Applying patch `item' on input line 147.
@@ -313,7 +313,7 @@ LaTeX Info: Redefining \showhyphens on input line 147.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
- (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg
+ (c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 \big@size=\dimen150
@@ -322,7 +322,7 @@ Package hyperref Info: Link coloring OFF on input line 147.
 \openout3 = `template.out'.
 
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 156.
- (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1phv.fd
+ (c:/texlive/2022/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -330,7 +330,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 156.
- (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
+ (c:/texlive/2022/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -338,15 +338,15 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 156.
- (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
+ (c:/texlive/2022/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 156.
- (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
+ (c:/texlive/2022/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 156.
- (C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
+ (c:/texlive/2022/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
@@ -356,7 +356,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 156.
 
-c:/Users/tidyl/Documents/vgtc_conference_latex/template.tex:156: Undefined control sequence.
+c:/Users/melanievasquez/Documents/latex/template.tex:156: Undefined control sequence.
 \@author ->\IEEEauthorblockN 
                              {1\textsuperscript {st} Chethram Ramoutar} \IEE...
 l.156 
@@ -367,7 +367,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-c:/Users/tidyl/Documents/vgtc_conference_latex/template.tex:156: Undefined control sequence.
+c:/Users/melanievasquez/Documents/latex/template.tex:156: Undefined control sequence.
 \@author ... Chethram Ramoutar} \IEEEauthorblockA 
                                                   {\textit {Hunter College} ...
 l.156 
@@ -380,7 +380,7 @@ and I'll forget about whatever was undefined.
 
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 156.
-c:/Users/tidyl/Documents/vgtc_conference_latex/template.tex:156: Missing } inserted.
+c:/Users/melanievasquez/Documents/latex/template.tex:156: Missing } inserted.
 <inserted text> 
                 }
 l.156 
@@ -389,7 +389,7 @@ I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-c:/Users/tidyl/Documents/vgtc_conference_latex/template.tex:156: Missing { inserted.
+c:/Users/melanievasquez/Documents/latex/template.tex:156: Missing { inserted.
 <inserted text> 
                 {
 l.156 
@@ -398,7 +398,7 @@ I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-c:/Users/tidyl/Documents/vgtc_conference_latex/template.tex:156: Undefined control sequence.
+c:/Users/melanievasquez/Documents/latex/template.tex:156: Undefined control sequence.
 \@author ...nter.cuny.edu} \and \IEEEauthorblockN 
                                                   {2\textsuperscript {nd} Ma...
 l.156 
@@ -409,7 +409,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-c:/Users/tidyl/Documents/vgtc_conference_latex/template.tex:156: Undefined control sequence.
+c:/Users/melanievasquez/Documents/latex/template.tex:156: Undefined control sequence.
 \@author ... {nd} Mark Blinder} \IEEEauthorblockA 
                                                   {\textit {Hunter College} ...
 l.156 
@@ -420,7 +420,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-c:/Users/tidyl/Documents/vgtc_conference_latex/template.tex:156: Missing } inserted.
+c:/Users/melanievasquez/Documents/latex/template.tex:156: Missing } inserted.
 <inserted text> 
                 }
 l.156 
@@ -429,7 +429,7 @@ I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-c:/Users/tidyl/Documents/vgtc_conference_latex/template.tex:156: Missing { inserted.
+c:/Users/melanievasquez/Documents/latex/template.tex:156: Missing { inserted.
 <inserted text> 
                 {
 l.156 
@@ -438,7 +438,7 @@ I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-c:/Users/tidyl/Documents/vgtc_conference_latex/template.tex:156: Undefined control sequence.
+c:/Users/melanievasquez/Documents/latex/template.tex:156: Undefined control sequence.
 \@author ...er.cuny.edu}\\ \and \IEEEauthorblockN 
                                                   {3\textsuperscript {rd} Om...
 l.156 
@@ -449,7 +449,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-c:/Users/tidyl/Documents/vgtc_conference_latex/template.tex:156: Undefined control sequence.
+c:/Users/melanievasquez/Documents/latex/template.tex:156: Undefined control sequence.
 \@author ...t {rd} Omar Hegazy} \IEEEauthorblockA 
                                                   {\textit {Hunter College} ...
 l.156 
@@ -460,7 +460,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-c:/Users/tidyl/Documents/vgtc_conference_latex/template.tex:156: Missing } inserted.
+c:/Users/melanievasquez/Documents/latex/template.tex:156: Missing } inserted.
 <inserted text> 
                 }
 l.156 
@@ -469,7 +469,7 @@ I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-c:/Users/tidyl/Documents/vgtc_conference_latex/template.tex:156: Missing { inserted.
+c:/Users/melanievasquez/Documents/latex/template.tex:156: Missing { inserted.
 <inserted text> 
                 {
 l.156 
@@ -478,7 +478,7 @@ I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-c:/Users/tidyl/Documents/vgtc_conference_latex/template.tex:156: Undefined control sequence.
+c:/Users/melanievasquez/Documents/latex/template.tex:156: Undefined control sequence.
 \@author ...nter.cuny.edu} \and \IEEEauthorblockN 
                                                   {4\textsuperscript {th} Me...
 l.156 
@@ -489,7 +489,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-c:/Users/tidyl/Documents/vgtc_conference_latex/template.tex:156: Undefined control sequence.
+c:/Users/melanievasquez/Documents/latex/template.tex:156: Undefined control sequence.
 \@author ...h} Melanie Vasquez} \IEEEauthorblockA 
                                                   {\textit {Hunter College} ...
 l.156 
@@ -500,7 +500,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-c:/Users/tidyl/Documents/vgtc_conference_latex/template.tex:156: Missing } inserted.
+c:/Users/melanievasquez/Documents/latex/template.tex:156: Missing } inserted.
 <inserted text> 
                 }
 l.156 
@@ -509,7 +509,7 @@ I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-c:/Users/tidyl/Documents/vgtc_conference_latex/template.tex:156: Missing { inserted.
+c:/Users/melanievasquez/Documents/latex/template.tex:156: Missing { inserted.
 <inserted text> 
                 {
 l.156 
@@ -523,16 +523,21 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 156.
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 190.
-(C:\Users\tidyl\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+(c:/texlive/2022/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [1{C:/Users/tidyl/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+) [1{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-No file template.bbl.
-[2
+<Figures/SpawnerBug.png, id=17, 902.37125pt x 500.87125pt>
+File: Figures/SpawnerBug.png Graphic file (type png)
+<use Figures/SpawnerBug.png>
+Package pdftex.def Info: Figures/SpawnerBug.png  used on input line 219.
+(pdftex.def)             Requested size: 240.94499pt x 133.73907pt.
+ [2 <./Figures/SpawnerBug.png>] (./template.aux)
 
-] (template.aux)
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 
 Package rerunfilecheck Warning: File `template.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
@@ -540,20 +545,21 @@ Package rerunfilecheck Warning: File `template.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `template.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  96F9FC24470A29E7D8B70CA8FEA90D8F;304.
+(rerunfilecheck)             After:  0EF95ACD70CBF26919AE59E0C11218AC;490.
  ) 
 Here is how much of TeX's memory you used:
- 10923 strings out of 478338
- 177314 string characters out of 2836701
- 530452 words of memory out of 3000000
- 29008 multiletter control sequences out of 15000+600000
- 504907 words of font info for 194 fonts, out of 8000000 for 9000
+ 10960 strings out of 475075
+ 174989 string characters out of 5782995
+ 573216 words of memory out of 5000000
+ 31984 multiletter control sequences out of 15000+600000
+ 507607 words of font info for 212 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,12n,77p,1052b,442s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/tidyl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/tidyl/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/tidyl/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/tidyl/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/tidyl/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on template.pdf (2 pages, 53735 bytes).
+ 73i,12n,77p,1045b,442s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on template.pdf (2 pages, 1150268 bytes).
 PDF statistics:
- 43 PDF objects out of 1000 (max. 8388607)
- 8 named destinations out of 1000 (max. 500000)
- 64001 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 50 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 500000)
+ 68102 words of extra memory for PDF output out of 74296 (max. 10000000)
 
