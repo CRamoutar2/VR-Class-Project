@@ -308,7 +308,15 @@ INPUT C:\Users\tidyl\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb
 INPUT C:\Users\tidyl\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
 INPUT C:\Users\tidyl\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
 INPUT C:\Users\tidyl\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\tidyl\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb7t.vf
 INPUT C:\Users\tidyl\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
+INPUT .\Figures\HubLoad.png
+INPUT .\Figures\HubLoad.png
+INPUT Figures\HubLoad.png
+INPUT .\Figures\HubLoad.png
+INPUT .\Figures\HubLoad.png
+INPUT .\Figures\HubLoad.png
+INPUT .\Figures\HubLoad.png
 INPUT .\Figures\SpawnerBug.png
 INPUT .\Figures\SpawnerBug.png
 INPUT Figures\SpawnerBug.png
@@ -316,7 +324,6 @@ INPUT .\Figures\SpawnerBug.png
 INPUT .\Figures\SpawnerBug.png
 INPUT .\Figures\SpawnerBug.png
 INPUT .\Figures\SpawnerBug.png
-INPUT C:\Users\tidyl\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb7t.vf
 INPUT .\template.bbl
 INPUT template.bbl
 INPUT .\template.bbl

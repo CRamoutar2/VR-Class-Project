@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex template"] 1670197973 "template.aux" "template.bbl" "template" 1670198154 0
+["bibtex template"] 1670198772 "template.aux" "template.bbl" "template" 1670198805 0
   "./template.bib" 1670195824 705 d4c4998a0e90d43d8e1c2785f9f6c3c3 ""
   "C:/Users/tidyl/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/ieeetr.bst" 1291864344 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "template.aux" 1670198154 792 d77180fdfc7595351f070b838e998d91 "pdflatex"
+  "template.aux" 1670198804 934 0fb9532a561296a32e676a9b48b53716 "pdflatex"
   (generated)
   "template.bbl"
   "template.blg"
   (rewritten before read)
-["pdflatex"] 1670198153 "c:/Users/tidyl/Documents/VR-Class-Project/latex/template.tex" "template.pdf" "template" 1670198154 0
+["pdflatex"] 1670198803 "c:/Users/tidyl/Documents/VR-Class-Project/latex/template.tex" "template.pdf" "template" 1670198805 0
   "C:/Users/tidyl/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1670195175 84158 d77284a6843bde1e4b9764f09fb2e89e ""
   "C:/Users/tidyl/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1670192647 10805036 72babd184c80ec0da779fd81c5cac6f1 ""
   "C:/Users/tidyl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458470287 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -67,11 +67,12 @@
   "C:/Users/tidyl/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/ot1ztmcm.fd" 1585250178 346 aee7226812ba4138ac67a018466b488d ""
   "C:/Users/tidyl/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/times.sty" 1585923171 888 8e0e5c8cca7b18e0400f97f5a2b90a99 ""
   "C:/Users/tidyl/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/ts1ptm.fd" 1585250178 653 96f56dc5d1ef1fe1121f1cfeec70ee0c ""
+  "Figures/HubLoad.png" 1670198480 852222 502e76d954b542a699f569319e5d6484 ""
   "Figures/SpawnerBug.png" 1670190838 1335814 7961d331cf9688a5877d99a9295354e1 ""
-  "c:/Users/tidyl/Documents/VR-Class-Project/latex/template.tex" 1670198152 19648 c2e777a1647295e2944ccbf8bad65877 ""
-  "template.aux" 1670198154 792 d77180fdfc7595351f070b838e998d91 "pdflatex"
-  "template.bbl" 1670197973 262 08db9921440fc218d653ae77422e3256 "bibtex template"
-  "template.tex" 1670198152 19648 c2e777a1647295e2944ccbf8bad65877 ""
+  "c:/Users/tidyl/Documents/VR-Class-Project/latex/template.tex" 1670198803 19846 cbfefe7f607d3178a077c49c569c95ab ""
+  "template.aux" 1670198804 934 0fb9532a561296a32e676a9b48b53716 "pdflatex"
+  "template.bbl" 1670198773 262 08db9921440fc218d653ae77422e3256 "bibtex template"
+  "template.tex" 1670198803 19846 cbfefe7f607d3178a077c49c569c95ab ""
   "vgtc.cls" 1670190838 34977 661cd0511c1b7ca4c083156d8aba0140 ""
   (generated)
   "template.aux"
