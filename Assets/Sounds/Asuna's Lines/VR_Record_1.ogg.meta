@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Sounds/Asuna's Lines/VR_Record_1.ogg.meta
 guid: 2987c364cb0801f46b8e52495fb6eab8
+========
+guid: 5267b515336054e41b246688d5bd565e
+>>>>>>>> 460ce7240d60abe40b73847911b4445012201680:Assets/Sounds/Asuna's Lines/VR_Recording_3.ogg.meta
 AudioImporter:
   externalObjects: {}
   serializedVersion: 6
