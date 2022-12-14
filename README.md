@@ -3,7 +3,7 @@
 _Chethram Ramoutar, Mark Blinder, Omar Hegazy, and Melanie Vasquez_
 
 ## About:
-
+## <a href="latex/Report.pdf"> Full Report Here<a>
 
 >### Engine: [Unity Version 2021.3.9f1](https://unity3d.com/get-unity/download/archive)
 >### Features: Head Tracking and Hand Tracking
@@ -11,7 +11,7 @@ _Chethram Ramoutar, Mark Blinder, Omar Hegazy, and Melanie Vasquez_
 
 ### **Headset Used for Testing:** [Oculus Quest 1](https://en.wikipedia.org/wiki/Oculus_Quest) & [Oculus Quest 2](https://www.meta.com/quest/products/quest-2/?utm_source=www.google.com&utm_medium=oculusredirect)
 
-#### Assets Used for All
+## Assets Used for All
 > Skybox: https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633
 ### Main Hub 
 >Space Skybox: https://assetstore.unity.com/packages/2d/textures-materials/deep-space-skybox-pack-11056
