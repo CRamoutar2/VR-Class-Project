@@ -48,6 +48,7 @@
 \renewcommand*\ttdefault{txtt}         % a nicer typewriter font
 \usepackage{cite}
 \usepackage{graphicx}   
+\usepackage{hyperref}                 % allow us to use hyperlinks
            % needed to automatically sort the references
 %% We encourage the use of mathptmx for consistent usage of times font
 %% throughout the proceedings. However, if you encounter conflicts
@@ -159,8 +160,10 @@ quests. However, we want to keep the calmness and aesthic found in "The Witness"
 \subsection*{Interactivity Research}
 Interactivity has been studied on its importance between user and game and what has lead to greater interactivity within a 3D space. In research done by Li-Keng Cheng, Ming-Hua Chieng and Wei-Hua Chieng\cite{cheng_2014}, they focused on the different aspects of interactivity in terms of telepresence which is also known as virtual
 reality. They found that the more interactivity a user has with their environment, the more immersed they become. This is due to the fact that the user is able to interact with their environment in a more natural way. This is also due to the fact that depending on what interactivity tools are utilized, the increase in user immersion
-is evident through gameplay. 
+is evident through gameplay.
 
+The research has noted there is an importance in making sure interactivity utilizes as much of the senses as possible. With our project we wanted to take this research into account and utilize sound, sight, and touch to the best of our abilities with this simple gaming concept. Their research highlights how it is important to always put the user's
+immersion first no matter the concept in order to make a telepresence feel more known. With this, we want to make sure the research is well put in place and that we are able to achieve the best immersion and interactivity as possible with the time handed to us.
 \section{Methodology}
 In order to complete the project, it will be done on Unity 2021.3.7f1. All testing will occur with the Oculus Quest 1 and the Oculus Quest 2. Each scene will utilize assets from the Unity Asset Store and any other
 source containing appropriate assets. The scenes will be connected through a main hub area which will contain teleportation pads to each area. The user will be able to teleport by standing on a pad and triggering
@@ -234,10 +237,10 @@ the game that can be built upong with the ever growing technology related to spe
 
 %% if specified like this the section will be committed in review mode
 \section* {Links}
-\subsection* {Github Link}
-https://github.com/CRamoutar2/VR-Class-Project/tree/Completed-Game
+\subsection* {Github Repository}
+\href{https://github.com/CRamoutar2/VR-Class-Project/tree/Completed-Game}{Project and Assets}
 \subsection*{Youtube Demo}
-https://www.youtube.com/watch?v=uKfVXEuRD80
+\href{https://www.youtube.com/watch?v=uKfVXEuRD80}{Full Demo}
 
 %\bibliographystyle{abbrv}
 \bibliographystyle{ieeetr}
@@ -245,5 +248,5 @@ https://www.youtube.com/watch?v=uKfVXEuRD80
 %\bibliographystyle{abbrv-doi-hyperref}
 %\bibliographystyle{abbrv-doi-hyperref-narrow}
 
-\bibliography{template}
+\bibliography{Bibliography}
 \end{document}
