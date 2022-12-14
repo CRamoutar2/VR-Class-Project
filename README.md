@@ -14,6 +14,8 @@ _Chethram Ramoutar, Mark Blinder, Omar Hegazy, and Melanie Vasquez_
 
 ## Assets Used for All
 > Skybox: https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633
+
+>Hands: https://www.youtube.com/watch?v=ijcn-mIJL5s
 ### Main Hub 
 >Space Skybox: https://assetstore.unity.com/packages/2d/textures-materials/deep-space-skybox-pack-11056
 
