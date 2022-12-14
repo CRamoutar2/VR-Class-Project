@@ -4,6 +4,7 @@ _Chethram Ramoutar, Mark Blinder, Omar Hegazy, and Melanie Vasquez_
 
 ## About:
 ## <a href="latex/Report.pdf"> Full Report Here<a>
+## <a href="https://youtu.be/uKfVXEuRD80"> Full Demo Video<a>
 
 >### Engine: [Unity Version 2021.3.9f1](https://unity3d.com/get-unity/download/archive)
 >### Features: Head Tracking and Hand Tracking
