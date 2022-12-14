@@ -27,13 +27,20 @@ _Chethram Ramoutar, Mark Blinder, Omar Hegazy, and Melanie Vasquez_
 ### Farm Created By: Chethram Ramoutar
 > Farm: https://assetstore.unity.com/packages/3d/environments/fantasy-landscape-103573#content
 
+> Farm Trees: https://assetstore.unity.com/packages/3d/vegetation/trees/free-trees-103208
+
+> Farm Rocks: https://assetstore.unity.com/packages/3d/props/exterior/ancient-ruins-and-plants-201914
+
 > Wheat: https://sketchfab.com/3d-models/wheat-free-ddff74ac0661414a9478bd4d7581c854
 
 
 ### Village Scene: Omar Hegazy
 > Village Buildings: https://assetstore.unity.com/packages/3d/environments/urban/village-buildings-77486
 
+> Village Landscape: https://assetstore.unity.com/packages/3d/environments/landscapes/hills-mountains-and-lakes-terrains-stamps-and-brushes-220273
+
 >Cactus: https://assetstore.unity.com/packages/3d/vegetation/plants/cactus-pack-11547
+
 ### Desert Scene: Melanie Vasquez
 >Desert: https://assetstore.unity.com/packages/3d/environments/low-poly-egypt-starter-kit-76491
 
